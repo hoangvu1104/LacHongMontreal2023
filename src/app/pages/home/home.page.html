@@ -1,0 +1,84 @@
+<app-toolbar-header></app-toolbar-header>
+<ion-content>
+  <div [ngClass]="{'fireworks-container': repetitions == repeatTimes}">
+    <div class="happy-tournament" *ngIf="repetitions == 0">
+      <span class="happy-tournament-text">Tiêu chí bốc thăm chia bảng</span>
+    </div>
+    <div class="happy-tournament" *ngIf="repetitions == 0">
+      <span class="happy-tournament-text" style="text-align: center;">1. Không có quá 3 đội cùng 1 bang vào cùng 1 bảng
+       (đối với bang Quebec và Ontario)
+      </span>
+    </div>
+    <div class="happy-tournament" *ngIf="repetitions == 0">
+      <span class="happy-tournament-text">2. Hai đội cùng CLB không vào chung 1 bảng (Stechco1 và Stechco2)
+      </span>
+    </div>
+    <div class="happy-tournament" *ngIf="repetitions != 0">
+      <span class="happy-tournament-text">{{ content }}</span>
+    </div>
+    <ion-grid>
+      <ion-row *ngIf="repetitions != 0">
+        <ion-col size="6">
+          <div class="group-container">
+            <h2 class="group-heading">Bảng A</h2>
+            <ion-list>
+              <ion-item *ngFor="let team of teamsToShowA" class="team-item">
+                <div class="team-info">
+                  <img class="team-image" [src]="commonFunctions.getTeamImageStyle(team)">
+                </div>
+                <div class="team-name">{{ team }}</div>
+              </ion-item>
+            </ion-list>
+          </div>
+        </ion-col>
+        <ion-col size="6">
+          <div class="group-container">
+            <h2 class="group-heading">Bảng B</h2>
+            <ion-list>
+              <ion-item *ngFor="let team of teamsToShowB" class="team-item">
+                <div class="team-info">
+                  <img class="team-image" [src]="commonFunctions.getTeamImageStyle(team)">
+                </div>
+                <div class="team-name">{{ team }}</div>
+              </ion-item>
+            </ion-list>
+          </div>
+        </ion-col>
+      </ion-row>
+      <ion-row *ngIf="repetitions != 0">
+        <ion-col size="6">
+          <div class="group-container">
+            <h2 class="group-heading">Bảng C</h2>
+            <ion-list>
+              <ion-item *ngFor="let team of teamsToShowC" class="team-item">
+                <div class="team-info">
+                  <img class="team-image" [src]="commonFunctions.getTeamImageStyle(team)">
+                </div>
+                <div class="team-name">{{ team }}</div>
+              </ion-item>
+            </ion-list>
+          </div>
+        </ion-col>
+        <ion-col size="6">
+          <div class="group-container">
+            <h2 class="group-heading">Bảng D</h2>
+            <ion-list>
+              <ion-item *ngFor="let team of teamsToShowD" class="team-item">
+                <div class="team-info">
+                  <img class="team-image" [src]="commonFunctions.getTeamImageStyle(team)">
+                </div>
+                <div class="team-name">{{ team }}</div>
+              </ion-item>
+            </ion-list>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <div class="happy-tournament" *ngIf="countdown != 0">
+      <span class="btn" (click)="startCountdown()">Chuẩn bị bốc thăm trong {{ countdown }} giây</span>
+    </div>
+    <div class="happy-tournament" *ngIf="repetitions == repeatTimes">
+      <span class="btn" (click)="scheduleDetail()">Xem lịch thi đấu chi tiết</span>
+    </div>
+  </div>
+</ion-content>
