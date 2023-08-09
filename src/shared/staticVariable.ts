@@ -1,6 +1,6 @@
 export class StaticVariable {
-  //static ImagesPath: string = '/LacHongMontreal2023/assets/images/';
-  static ImagesPath: string = '/assets/images/';
+  static ImagesPath: string = '/LacHongMontreal2023/assets/images/';
+  //static ImagesPath: string = '/assets/images/';
   //Alberta
   static CalgaryVFCLogo: string = 'CalgaryVFC.png';
   //Ontario
