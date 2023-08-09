@@ -65,7 +65,10 @@ export class HomePage implements OnInit {
     this.teamsToShowB = []; // Teams to show for Group B
     this.teamsToShowC = []; // Teams to show for Group C
     this.teamsToShowD = []; // Teams to show for Group D
-    const teamAssignments: string[][] = this.generateTeamAssignments();
+    let teamAssignments: string[][] = this.generateTeamAssignments();
+    while (teamAssignments.length === 0) {
+      teamAssignments = this.generateTeamAssignments();
+    }
     this.groupA = teamAssignments[0];
     this.groupB = teamAssignments[1];
     this.groupC = teamAssignments[2];
@@ -207,10 +210,18 @@ export class HomePage implements OnInit {
       teamsC.push(team2O1Q_3[1]);
       teamsC.push(team2O1Q_3[2]);
     }
-    //Check if 2 team Stechco is valid
-    
+    //Check if 2 teams Stechco are valid (not at the same table)
+    if ((teamsA.includes(Teams.Stechco1) && teamsA.includes(Teams.Stechco2)) ||
+      (teamsB.includes(Teams.Stechco1) && teamsB.includes(Teams.Stechco2)) ||
+      (teamsC.includes(Teams.Stechco1) && teamsC.includes(Teams.Stechco2)) ||
+      (teamsD.includes(Teams.Stechco1) && teamsD.includes(Teams.Stechco2))
+    ) {
+      console.log('regenerateTeamAssignments()');
+      return [];
 
-    return [teamsA, teamsB, teamsC, teamsD];
+    } else {
+      return [teamsA, teamsB, teamsC, teamsD];
+    }
   }
   shuffleArray(array: any[]): void {
     for (let i = array.length - 1; i > 0; i--) {
