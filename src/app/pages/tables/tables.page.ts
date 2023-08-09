@@ -9,9 +9,11 @@ import { Teams } from 'src/shared/teams';
   templateUrl: './tables.page.html',
   styleUrls: ['./tables.page.scss'],
 })
-export class TablesPage implements OnInit {  
+export class TablesPage implements OnInit {
   groupA = [Teams.VMU, Teams.Stechco2, Teams.Stechco1, Teams.RBJunior];
-  groupB = [Teams.FC3Mien, Teams.BFC, Teams.Stechco1, Teams.VMU];  
+  groupB = [Teams.FC3Mien, Teams.BFC, Teams.Stechco1, Teams.VMU];
+  groupC = [Teams.FC3Mien, Teams.BFC, Teams.Stechco1, Teams.VMU];
+  groupD = [Teams.FC3Mien, Teams.BFC, Teams.Stechco1, Teams.VMU];
 
   constructor(public commonFunctions : CommonFunctions, private navCtrl: NavController) { }
 
@@ -19,7 +21,7 @@ export class TablesPage implements OnInit {
   }
 
   getTeamImageStyle(team: string): any  {
-    return this.commonFunctions.getTeamImageStyle(team);    
+    return this.commonFunctions.getTeamImageStyle(team);
   }
 
   loadTeamInfo(teamName: string){

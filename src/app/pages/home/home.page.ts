@@ -207,6 +207,8 @@ export class HomePage implements OnInit {
       teamsC.push(team2O1Q_3[1]);
       teamsC.push(team2O1Q_3[2]);
     }
+    //Check if 2 team Stechco is valid
+    
 
     return [teamsA, teamsB, teamsC, teamsD];
   }

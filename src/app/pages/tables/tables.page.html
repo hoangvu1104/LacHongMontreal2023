@@ -6,7 +6,7 @@
         <h2 class="group-heading">Bảng A</h2>
         <ion-list>
           <ion-item *ngFor="let team of groupA" class="team-item"  (click)="loadTeamInfo(team)">
-            <img [src]="getTeamImageStyle(team)" class="team-image">            
+            <img [src]="getTeamImageStyle(team)" class="team-image">
             <div class="team-name">{{ team }}</div>
           </ion-item>
         </ion-list>
@@ -24,5 +24,28 @@
       </div>
     </ion-col>
   </ion-row>
+  <ion-row>
+    <ion-col size="6">
+      <div class="group-container">
+        <h2 class="group-heading">Bảng C</h2>
+        <ion-list>
+          <ion-item *ngFor="let team of groupC" class="team-item"  (click)="loadTeamInfo(team)">
+            <img [src]="getTeamImageStyle(team)" class="team-image">
+            <div class="team-name">{{ team }}</div>
+          </ion-item>
+        </ion-list>
+      </div>
+    </ion-col>
+    <ion-col size="6">
+      <div class="group-container">
+        <h2 class="group-heading">Bảng <Det></Det></h2>
+        <ion-list>
+          <ion-item *ngFor="let team of groupD" class="team-item" (click)="loadTeamInfo(team)">
+            <img [src]="getTeamImageStyle(team)" class="team-image">
+            <div class="team-name">{{ team }}</div>
+          </ion-item>
+        </ion-list>
+      </div>
+    </ion-col>
+  </ion-row>
 </ion-grid>
-
