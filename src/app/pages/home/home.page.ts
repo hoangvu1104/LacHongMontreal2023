@@ -19,7 +19,7 @@ export class HomePage implements OnInit {
     B: [],
     C: [],
     D: []
-  };  
+  };
 
   showCongratulations = false;
   regenerateInterval: any;
@@ -52,7 +52,7 @@ export class HomePage implements OnInit {
     this.repetitions = 0;
     this.generateTeams();
     this.regenerateInterval = setInterval(() => {
-      this.generateTeams();   
+      this.generateTeams();
     }, 10000);
   }
 
@@ -68,13 +68,12 @@ export class HomePage implements OnInit {
     this.teamsToShowB = []; // Teams to show for Group B
     this.teamsToShowC = []; // Teams to show for Group C
     this.teamsToShowD = []; // Teams to show for Group D
-    
-    this.teamAssignments = this.generateTeamAssignments(DataInfo.SeedsTeam);    
+
+    this.teamAssignments = this.generateTeamAssignments(DataInfo.SeedsTeam);
     this.updateTeamsToShow(this.teamAssignments);
   }
-  updateTeamsToShow(teamAssignments: any)
-  {
-    for(let i = 0; i < 4; i++){
+  updateTeamsToShow(teamAssignments: any) {
+    for (let i = 0; i < 4; i++) {
       let teamA = teamAssignments['A'][i];
       let teamB = teamAssignments['B'][i];
       let teamC = teamAssignments['C'][i];
@@ -84,10 +83,10 @@ export class HomePage implements OnInit {
         this.teamsToShowB.push(teamB);
         this.teamsToShowC.push(teamC);
         this.teamsToShowD.push(teamD);
-      }, 1000*(i));
+      }, 1000 * (i));
     }
   }
- 
+
   generateTeamAssignments(seedTeams: Team[]): Group {
     const cloneOtherTeams = [...DataInfo.OtherTeams];
     const groups: Group = {
@@ -100,7 +99,7 @@ export class HomePage implements OnInit {
     this.shuffleArray(seedTeams);
     //assign seed teams to groups
     seedTeams.forEach((seedTeam, index) => {
-      const group = Object.keys(groups)[index];      
+      const group = Object.keys(groups)[index];
       groups[group as keyof Group].push(seedTeam);
     });
 
@@ -118,15 +117,15 @@ export class HomePage implements OnInit {
         let currentGroup = groups[group as keyof Group];
         if (currentGroup
           .every(team => !this.areSameClub(currentTeam, team) &&
-            !this.hasThreeTeamsFromSameProvince(currentGroup, currentProvince) &&
+            !this.hasTwoTeamsFromSameProvince(currentGroup, currentProvince) &&
             !this.isGroupFull(currentGroup))) {
-              currentGroup.push(currentTeam);
-              break;
+          currentGroup.push(currentTeam);
+          break;
         }
       }
-    }    
+    }
     return groups;
-  }  
+  }
 
   shuffleArray(array: any[]): void {
     for (let i = array.length - 1; i > 0; i--) {
@@ -162,9 +161,9 @@ export class HomePage implements OnInit {
     return team1.club === team2.club;
   }
 
-  hasThreeTeamsFromSameProvince(group: Team[], province: string) {
+  hasTwoTeamsFromSameProvince(group: Team[], province: string) {
     const pronvinceCount = group.filter(team => team.province === province).length;
-    return pronvinceCount >= 3;
+    return pronvinceCount >= 2;
   }
 
   isGroupFull(group: any[]) {
