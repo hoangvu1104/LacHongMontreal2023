@@ -88,7 +88,9 @@ export class HomePage implements OnInit {
   }
 
   generateTeamAssignments(seedTeams: Team[]): Group {
-    const cloneOtherTeams = [...DataInfo.OtherTeams];
+    this.shuffleArray(DataInfo.OntarioTeams);
+    this.shuffleArray(DataInfo.QuebecTeams);
+    const cloneOtherTeams = [...DataInfo.QuebecTeams, ...DataInfo.OntarioTeams];
     const groups: Group = {
       A: [],
       B: [],
@@ -103,8 +105,6 @@ export class HomePage implements OnInit {
       groups[group as keyof Group].push(seedTeam);
     });
 
-    //Shuffle otherTeams
-    this.shuffleArray(cloneOtherTeams);
     const stecho2Index = cloneOtherTeams.findIndex(team => team.name === Teams.Stechco2);
     if (stecho2Index !== -1) {
       cloneOtherTeams.push(...cloneOtherTeams.splice(stecho2Index, 1));

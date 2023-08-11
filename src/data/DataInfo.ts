@@ -12,7 +12,7 @@ export class DataInfo {
     { name: Teams.CICC, province: DataInfo.OntarioProvince, club: 'CICC' },
     { name: Teams.CalgaryVFC, province: DataInfo.AlbertaProvince, club: 'CalgaryVFC' }
   ];
-  static OtherTeams: Team[] = [
+  static OntarioTeams: Team[] = [
     //Ontario
     { name: Teams.CTC, province: DataInfo.OntarioProvince, club: 'CTC' },
     { name: Teams.FCKingston, province: DataInfo.OntarioProvince, club: 'FCKingston' },
@@ -20,7 +20,9 @@ export class DataInfo {
     { name: Teams.BFC, province: DataInfo.OntarioProvince, club: 'BFC' },
     { name: Teams.YGOfVN, province: DataInfo.OntarioProvince, club: 'YGOfVN' },
     { name: Teams.FCAE, province: DataInfo.OntarioProvince, club: 'FCAE' },
-    { name: Teams.LankFC, province: DataInfo.OntarioProvince, club: 'LankFC' },
+    { name: Teams.LankFC, province: DataInfo.OntarioProvince, club: 'LankFC' }
+  ];
+  static QuebecTeams: Team[] = [
     //Quebec
     { name: Teams.SFC, province: DataInfo.QuebecProvince, club: 'SFC' },
     { name: Teams.VMU, province: DataInfo.QuebecProvince, club: 'VMU' },
