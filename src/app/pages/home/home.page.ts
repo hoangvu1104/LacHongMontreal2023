@@ -124,6 +124,14 @@ export class HomePage implements OnInit {
         }
       }
     }
+    //re-random group without changing position of seed teams
+    for (const group in groups) {
+      let currentGroup = groups[group as keyof Group];
+      this.shuffleArray(currentGroup);
+      let indexSeedTeam = this.indexSeedTeam(currentGroup);
+      currentGroup.unshift(currentGroup.splice(indexSeedTeam, 1)[0]);
+    }
+
     return groups;
   }
 
@@ -164,6 +172,15 @@ export class HomePage implements OnInit {
   hasTwoTeamsFromSameProvince(group: Team[], province: string) {
     const pronvinceCount = group.filter(team => team.province === province).length;
     return pronvinceCount >= 2;
+  }
+
+  indexSeedTeam(group: Team[]) {
+    const seedIndex = group
+      .findIndex(team =>
+      (team.name === Teams.Stechco1 || team.name === Teams.CICC ||
+        team.name === Teams.VietUnitedFC || team.name === Teams.CalgaryVFC)
+      );
+    return seedIndex;
   }
 
   isGroupFull(group: any[]) {
