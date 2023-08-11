@@ -20,5 +20,6 @@ export class StaticVariable {
   static RBJuniorLogo: string = 'RBJunior.JPG';
   //Bristish Columbia
   static VietUnitedFCLogo: string = 'VietUnitedFC.jpg';
-
+  //Logo Tournament
+  static Logo: string = 'Logo.JPG';
 }

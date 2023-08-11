@@ -10,21 +10,21 @@ import { Teams } from 'src/shared/teams';
   styleUrls: ['./tables.page.scss'],
 })
 export class TablesPage implements OnInit {
-  groupA = [Teams.VMU, Teams.Stechco2, Teams.Stechco1, Teams.RBJunior];
+  groupA = [Teams.Stechco1, Teams.Stechco2, Teams.Stechco1, Teams.RBJunior];
   groupB = [Teams.FC3Mien, Teams.BFC, Teams.Stechco1, Teams.VMU];
   groupC = [Teams.FC3Mien, Teams.BFC, Teams.Stechco1, Teams.VMU];
   groupD = [Teams.FC3Mien, Teams.BFC, Teams.Stechco1, Teams.VMU];
 
-  constructor(public commonFunctions : CommonFunctions, private navCtrl: NavController) { }
+  constructor(public commonFunctions: CommonFunctions, private navCtrl: NavController) { }
 
   ngOnInit() {
   }
 
-  getTeamImageStyle(team: string): any  {
+  getTeamImageStyle(team: string): any {
     return this.commonFunctions.getTeamImageStyle(team);
   }
 
-  loadTeamInfo(teamName: string){
+  loadTeamInfo(teamName: string) {
     console.log('teamName', teamName);
     this.navCtrl.navigateRoot(['/', RoutesUrl.TeamInfo, teamName]);
   }

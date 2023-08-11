@@ -8,29 +8,33 @@
       <tr>
         <th>Thời gian</th>
         <th>Sân</th>
+        <th>Code</th>
         <th></th>
-        <th>Tên đội</th>
+        <th>Home</th>
+        <!-- <th></th>
         <th></th>
-        <th></th>
-        <th></th>
-        <th>Tên đội</th>
+        <th></th> -->
+        <th></th>        
+        <th>Away</th>
         <th></th>
       </tr>
     </thead>
     <tbody>
-      <ng-container *ngFor="let division of semifinals; let i = index">
+      <ng-container *ngFor="let division of playoffs; let i = index">
         <tr [class.border-bottom]="(i + 1) % 4 !== 0">
           <td *ngIf="(i + 1) % 4 === 1" rowspan="4">{{ division.time }}</td>
           <td>{{ division.field }}</td>
+          <td>{{ division.code }}</td>
           <td>
             <div class="team-info">
               <img [src]="commonFunctions.getTeamImageStyle(division.teamA)" alt="Team A" class="team-image">
             </div>
           </td>
           <td class="team-name">{{ division.teamA }}</td>
-          <td>{{ division.resultA }}</td>
+          <!-- <td>{{ division.resultA }}</td>
           <td> - </td>
-          <td>{{ division.resultB }}</td>
+          <td>{{ division.resultB }}</td> -->
+          <td> vs </td>
           <td class="team-name">{{ division.teamB }}</td>
           <td>
             <div class="team-info">
@@ -38,23 +42,28 @@
             </div>
           </td>
         </tr>
-        <tr *ngIf="((i + 1) % 4 === 0)" class="spacer-row">
+        <tr *ngIf="((i + 1) % 4 === 0 && i !== 11)" class="spacer-row">
           <td colspan="9">Giải lao 15 phút</td>
-        </tr>       
+        </tr>   
+        <tr *ngIf="i === 11" class="spacer-row">
+          <td colspan="9">Nghỉ trưa 1 tiếng</td>
+        </tr>    
       </ng-container>
       <ng-container *ngFor="let division of finals; let i = index">
         <tr [class.border-bottom]="(i + 1) % 3 !== 0">
           <td *ngIf="(i + 1) % 3 === 1" rowspan="3">{{ division.time }}</td>
           <td>{{ division.field }}</td>
+          <td>{{ division.code }}</td>
           <td>
             <div class="team-info">
               <img [src]="commonFunctions.getTeamImageStyle(division.teamA)" alt="Team A" class="team-image">
             </div>
           </td>
           <td class="team-name">{{ division.teamA }}</td>
-          <td>{{ division.resultA }}</td>
+          <!-- <td>{{ division.resultA }}</td>
           <td> - </td>
-          <td>{{ division.resultB }}</td>
+          <td>{{ division.resultB }}</td> -->
+          <td> vs </td>
           <td class="team-name">{{ division.teamB }}</td>
           <td>
             <div class="team-info">
@@ -70,15 +79,17 @@
         <tr>
           <td>{{ division.time }}</td>
           <td>{{ division.field }}</td>
+          <td>{{ division.code }}</td>
           <td>
             <div class="team-info">
               <img [src]="commonFunctions.getTeamImageStyle(division.teamA)" alt="Team A" class="team-image">
             </div>
           </td>
           <td class="team-name">{{ division.teamA }}</td>
-          <td>{{ division.resultA }}</td>
+          <!-- <td>{{ division.resultA }}</td>
           <td> - </td>
-          <td>{{ division.resultB }}</td>
+          <td>{{ division.resultB }}</td> -->
+          <td> vs </td>
           <td class="team-name">{{ division.teamB }}</td>
           <td>
             <div class="team-info">
@@ -87,7 +98,7 @@
           </td>
         </tr> 
         <tr class="spacer-row-final">
-          <td colspan="9">16h15 - 17h: Lễ bế mạc</td>
+          <td colspan="9">15h15 - 16h: Lễ bế mạc</td>
         </tr>                 
       </ng-container>
     </tbody>

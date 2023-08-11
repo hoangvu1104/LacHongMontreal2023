@@ -80,6 +80,9 @@ export class CommonFunctions {
       case Teams.VietUnitedFC_Star:
         imagePath += `${StaticVariable.VietUnitedFCLogo}`;
         break;
+      default:
+        imagePath += `${StaticVariable.Logo}`;
+        break;
     };
     return imagePath;
   }

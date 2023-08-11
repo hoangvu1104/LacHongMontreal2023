@@ -1,4 +1,9 @@
 export interface Player {
-    playerName: string;
-    playerNumber: number;    
-  }
+  teamName: string;
+  playerName: string;
+  playerNumber: number;
+  goals: number;
+  assists: number;
+  yellowCards: number;
+  redCards: number;
+}

@@ -22,10 +22,10 @@ export class BeginPage implements OnInit {
   time2: string = '9h45-10h45';
   time3: string = '11h-12h';
 
-  constructor(private route: ActivatedRoute,    
-    private navCtrl: NavController) {   
+  constructor(private route: ActivatedRoute,
+    private navCtrl: NavController) {
     this.groupA = ['Team A1', 'Team A2', 'Team A3', 'Team A4'];
-    this.groupB = ['Team B1', 'Team B2', 'Team B3', 'Team B4'];   
+    this.groupB = ['Team B1', 'Team B2', 'Team B3', 'Team B4'];
   }
 
   ngOnInit() {
@@ -33,7 +33,7 @@ export class BeginPage implements OnInit {
     this.startCountdown();
   }
 
-  startCountdown() {    
+  startCountdown() {
     const timer = setInterval(() => {
       this.countdown--;
       if (this.countdown <= 0) {
@@ -43,8 +43,7 @@ export class BeginPage implements OnInit {
     }, 1000); // Decrease the countdown every second (1000 milliseconds)
   }
 
-  generateTeams()
-  {
+  generateTeams() {
     this.navCtrl.navigateRoot(RoutesUrl.Home);
   }
 
@@ -52,50 +51,62 @@ export class BeginPage implements OnInit {
     //get group A and B from page home
     this.divisions = [
       {
+        code: '',
         time: this.time1, field: Fields.Field1,
         teamA: groupA[0], teamB: groupA[1]
       },
       {
+        code: '',
         time: this.time1, field: Fields.Field2,
         teamA: groupA[2], teamB: groupA[3]
       },
       {
+        code: '',
         time: this.time1, field: Fields.Field3,
         teamA: groupB[0], teamB: groupB[1]
       },
       {
+        code: '',
         time: this.time1, field: Fields.Field4,
-        teamA: groupB[2], teamB: groupB[3] 
+        teamA: groupB[2], teamB: groupB[3]
       },
       {
+        code: '',
         time: this.time2, field: Fields.Field1,
         teamA: groupA[0], teamB: groupA[2]
       },
       {
+        code: '',
         time: this.time2, field: Fields.Field2,
         teamA: groupA[1], teamB: groupA[3]
       },
       {
+        code: '',
         time: this.time2, field: Fields.Field3,
         teamA: groupB[0], teamB: groupB[2]
       },
       {
+        code: '',
         time: this.time2, field: Fields.Field4,
         teamA: groupB[1], teamB: groupB[3]
       },
       {
+        code: '',
         time: this.time3, field: Fields.Field1,
         teamA: groupA[0], teamB: groupA[3]
       },
       {
+        code: '',
         time: this.time3, field: Fields.Field2,
         teamA: groupA[1], teamB: groupA[2]
       },
       {
+        code: '',
         time: this.time3, field: Fields.Field3,
         teamA: groupB[0], teamB: groupB[3]
       },
       {
+        code: '',
         time: this.time3, field: Fields.Field4,
         teamA: groupB[1], teamB: groupB[2]
       }
