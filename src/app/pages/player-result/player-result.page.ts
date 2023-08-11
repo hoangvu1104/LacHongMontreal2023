@@ -12,7 +12,7 @@ export class PlayerResultPage implements OnInit {
   showGoalsStatic = true;
   displayTitle = '';
   constructor() {
-    this.showPlayersResult();
+
   }
 
   changValue(event: any) {
@@ -21,7 +21,9 @@ export class PlayerResultPage implements OnInit {
     this.showPlayersResult();
   }
 
-  ngOnInit() { }
+  ngOnInit() {
+    this.showPlayersResult();
+  }
 
   showPlayersResult() {
     if (this.showGoalsStatic) {
@@ -29,14 +31,21 @@ export class PlayerResultPage implements OnInit {
     } else {
       this.displayTitle = 'Danh sách cầu thủ kiến tạo';
     }
-    this.playerResults.push(...DataInfo.Stechco1Players.teamMembers, ...DataInfo.Stechco2Players.teamMembers);
-    this.playerResults.filter((p) => {
-      if (this.showGoalsStatic) {
-        return p.goals > 0;
-      } else {
-        return p.assists > 0;
-      }
-    })
+    this.playerResults.push(
+      ...DataInfo.VietUnitedFCPlayers.teamMembers, ...DataInfo.CalgaryVFCPlayers.teamMembers, ...DataInfo.Stechco1Players.teamMembers,
+      ...DataInfo.Stechco2Players.teamMembers, ...DataInfo.SFCPlayers.teamMembers, ...DataInfo.VMUPlayers.teamMembers,
+      ...DataInfo.FC3MienPlayers.teamMembers, ...DataInfo.RBJuniorPlayers.teamMembers, ...DataInfo.CICCPlayers.teamMembers,
+      ...DataInfo.CTCPlayers.teamMembers, ...DataInfo.FCKingstonPlayers.teamMembers, ...DataInfo.KWFCPlayers.teamMembers,
+      ...DataInfo.BFCPlayers.teamMembers, ...DataInfo.YGOfVNPlayers.teamMembers, ...DataInfo.FCAEPlayers.teamMembers,
+      ...DataInfo.LankFCPlayers.teamMembers);
+    this.playerResults = this.playerResults
+      .filter((p) => {
+        if (this.showGoalsStatic) {
+          return p.goals > 0;
+        } else {
+          return p.assists > 0;
+        }
+      })
       .sort((a, b) => {
         if (this.showGoalsStatic) {
           return b.goals - a.goals;
