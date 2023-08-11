@@ -80,25 +80,25 @@ export class PlayoffnormalPage implements OnInit {
       //'11h-12h' - SF Division 1-2
       {
         code: "SF11",
-        time: this.time2, field: Fields.Field1,
+        time: this.time3, field: Fields.Field1,
         teamA: 'WIN QF11', teamB: 'WIN QF13',
         resultA: 0, resultB: 0
       },
       {
         code: "SF12",
-        time: this.time2, field: Fields.Field2,
+        time: this.time3, field: Fields.Field2,
         teamA: 'WIN QF12', teamB: 'WIN QF14',
         resultA: 0, resultB: 0
       },
       {
         code: "SF21",
-        time: this.time2, field: Fields.Field3,
+        time: this.time3, field: Fields.Field3,
         teamA: 'WIN QF21', teamB: 'WIN QF23',
         resultA: 0, resultB: 0
       },
       {
         code: "SF22",
-        time: this.time2, field: Fields.Field4,
+        time: this.time3, field: Fields.Field4,
         teamA: 'WIN QF22', teamB: 'WIN QF24',
         resultA: 0, resultB: 0
       }
@@ -107,26 +107,26 @@ export class PlayoffnormalPage implements OnInit {
     this.finals = [
       {
         code: "TP1",
-        time: this.time2, field: Fields.Field2,
+        time: this.time4, field: Fields.Field2,
         teamA: 'LOSE SF11', teamB: 'LOSE SF12',
         resultA: 4, resultB: 1
       },
       {
         code: "TP2",
-        time: this.time2, field: Fields.Field3,
+        time: this.time4, field: Fields.Field3,
         teamA: 'LOSE SF21', teamB: 'LOSE SF22',
         resultA: 6, resultB: 1
       },
       {
         code: "FN2",
-        time: this.time2, field: Fields.Field4,
+        time: this.time4, field: Fields.Field4,
         teamA: 'WIN SF21', teamB: 'WIN SF22',
         resultA: 2, resultB: 0
       }
     ];
     this.finalD1 = [{
       code: "FN1",
-      time: this.time3, field: Fields.Field4,
+      time: this.time5, field: Fields.Field4,
       teamA: 'WIN SF11', teamB: 'WIN SF12',
       resultA: 1, resultB: 1
     }];
