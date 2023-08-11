@@ -5,12 +5,16 @@
       <span class="happy-tournament-text">Tiêu chí bốc thăm chia bảng</span>
     </div>
     <div class="happy-tournament" *ngIf="repetitions == 0">
-      <span class="happy-tournament-text" style="text-align: center;">1. Không có quá 3 đội cùng 1 bang vào cùng 1 bảng
+      <span class="happy-tournament-text" style="text-align: center;">1. Bốn đội hạt giống (Stechco 1, CICC, Viet United FC, Calgary VFC) được sắp xếp ngẫu nhiên vào 4 bảng (A-D) ở vị trí A1-D1
+      </span>
+    </div>
+    <div class="happy-tournament" *ngIf="repetitions == 0">
+      <span class="happy-tournament-text" style="text-align: center;">2. Không có quá 3 đội cùng 1 bang vào cùng 1 bảng
        (đối với bang Quebec và Ontario)
       </span>
     </div>
     <div class="happy-tournament" *ngIf="repetitions == 0">
-      <span class="happy-tournament-text">2. Hai đội cùng CLB không vào chung 1 bảng (Stechco1 và Stechco2)
+      <span class="happy-tournament-text">3. Hai đội cùng CLB không vào chung 1 bảng (Stechco1 và Stechco2)
       </span>
     </div>
     <div class="happy-tournament" *ngIf="repetitions != 0">
@@ -24,9 +28,9 @@
             <ion-list>
               <ion-item *ngFor="let team of teamsToShowA" class="team-item">
                 <div class="team-info">
-                  <img class="team-image" [src]="commonFunctions.getTeamImageStyle(team)">
+                  <img class="team-image" [src]="commonFunctions.getTeamImageStyle(team.name)">
                 </div>
-                <div class="team-name">{{ team }}</div>
+                <div class="team-name">{{ commonFunctions.generateTeamName(team, true) }}</div>
               </ion-item>
             </ion-list>
           </div>
@@ -37,9 +41,9 @@
             <ion-list>
               <ion-item *ngFor="let team of teamsToShowB" class="team-item">
                 <div class="team-info">
-                  <img class="team-image" [src]="commonFunctions.getTeamImageStyle(team)">
+                  <img class="team-image" [src]="commonFunctions.getTeamImageStyle(team.name)">
                 </div>
-                <div class="team-name">{{ team }}</div>
+                <div class="team-name">{{ commonFunctions.generateTeamName(team, true) }}</div>
               </ion-item>
             </ion-list>
           </div>
@@ -52,9 +56,9 @@
             <ion-list>
               <ion-item *ngFor="let team of teamsToShowC" class="team-item">
                 <div class="team-info">
-                  <img class="team-image" [src]="commonFunctions.getTeamImageStyle(team)">
+                  <img class="team-image" [src]="commonFunctions.getTeamImageStyle(team.name)">
                 </div>
-                <div class="team-name">{{ team }}</div>
+                <div class="team-name">{{ commonFunctions.generateTeamName(team, true) }}</div>
               </ion-item>
             </ion-list>
           </div>
@@ -65,9 +69,9 @@
             <ion-list>
               <ion-item *ngFor="let team of teamsToShowD" class="team-item">
                 <div class="team-info">
-                  <img class="team-image" [src]="commonFunctions.getTeamImageStyle(team)">
+                  <img class="team-image" [src]="commonFunctions.getTeamImageStyle(team.name)">
                 </div>
-                <div class="team-name">{{ team }}</div>
+                <div class="team-name">{{ commonFunctions.generateTeamName(team, true) }}</div>
               </ion-item>
             </ion-list>
           </div>

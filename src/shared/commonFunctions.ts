@@ -2,6 +2,7 @@ import { Injectable } from "@angular/core";
 import { Teams } from "./teams";
 import { MenuController } from "@ionic/angular";
 import { StaticVariable } from "./staticVariable";
+import { Team } from "src/models/Team";
 
 @Injectable({
   providedIn: 'root'
@@ -81,6 +82,13 @@ export class CommonFunctions {
         break;
     };
     return imagePath;
+  }
+
+  generateTeamName(team: Team, addProvince: boolean) {
+    if (addProvince)
+      return `${team.name} (${team.province})`;
+    else
+      return team.name;
   }
 
   enableMenuSwipe() {

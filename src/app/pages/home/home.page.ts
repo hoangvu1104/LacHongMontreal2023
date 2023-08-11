@@ -4,7 +4,9 @@ import { NavigationExtras } from "@angular/router";
 import { CommonFunctions } from '../../../shared/commonFunctions';
 import { RoutesUrl } from 'src/shared/routesUrl';
 import { Teams } from 'src/shared/teams';
-import { Console } from 'console';
+import { Team } from 'src/models/Team';
+import { Group } from 'src/models/Group';
+import { DataInfo } from 'src/data/DataInfo';
 
 @Component({
   selector: 'app-home',
@@ -12,21 +14,23 @@ import { Console } from 'console';
   styleUrls: ['home.page.scss']
 })
 export class HomePage implements OnInit {
+  teamAssignments: Group = {
+    A: [],
+    B: [],
+    C: [],
+    D: []
+  };  
+
   showCongratulations = false;
   regenerateInterval: any;
   repetitions: number = 0;
   content: any;
   repeatTimes: number = 5;
-  groupA: string[] = [];
-  groupB: string[] = [];
-  groupC: string[] = [];
-  groupD: string[] = [];
-
-  teamsToShowA: string[] = []; // Teams to show for Group A
-  teamsToShowB: string[] = []; // Teams to show for Group B
-  teamsToShowC: string[] = []; // Teams to show for Group C
-  teamsToShowD: string[] = []; // Teams to show for Group D
-  countdown = 15;
+  teamsToShowA: Team[] = []; // Teams to show for Group A
+  teamsToShowB: Team[] = []; // Teams to show for Group B
+  teamsToShowC: Team[] = []; // Teams to show for Group C
+  teamsToShowD: Team[] = []; // Teams to show for Group D
+  countdown = 10;
   constructor(private navCtrl: NavController, public commonFunctions: CommonFunctions) { }
 
   ngOnInit() {
@@ -48,8 +52,7 @@ export class HomePage implements OnInit {
     this.repetitions = 0;
     this.generateTeams();
     this.regenerateInterval = setInterval(() => {
-      this.generateTeams();
-      console.log('startRegeneration', this.repetitions);
+      this.generateTeams();   
     }, 10000);
   }
 
@@ -65,164 +68,66 @@ export class HomePage implements OnInit {
     this.teamsToShowB = []; // Teams to show for Group B
     this.teamsToShowC = []; // Teams to show for Group C
     this.teamsToShowD = []; // Teams to show for Group D
-    let teamAssignments: string[][] = this.generateTeamAssignments();
-    while (teamAssignments.length === 0) {
-      teamAssignments = this.generateTeamAssignments();
-    }
-    this.groupA = teamAssignments[0];
-    this.groupB = teamAssignments[1];
-    this.groupC = teamAssignments[2];
-    this.groupD = teamAssignments[3];
-    this.updateTeamsToShow();
+    
+    this.teamAssignments = this.generateTeamAssignments(DataInfo.SeedsTeam);    
+    this.updateTeamsToShow(this.teamAssignments);
   }
-
-  updateTeamsToShow() {
-    if (this.teamsToShowA.length < this.groupA.length) {
-      this.teamsToShowA.push(this.groupA[this.teamsToShowA.length]);
-    }
-    if (this.teamsToShowB.length < this.groupB.length) {
-      this.teamsToShowB.push(this.groupB[this.teamsToShowB.length]);
-    }
-    if (this.teamsToShowC.length < this.groupC.length) {
-      this.teamsToShowC.push(this.groupC[this.teamsToShowC.length]);
-    }
-    if (this.teamsToShowD.length < this.groupD.length) {
-      this.teamsToShowD.push(this.groupD[this.teamsToShowD.length]);
-    }
-    if (
-      this.teamsToShowA.length < this.groupA.length ||
-      this.teamsToShowB.length < this.groupB.length ||
-      this.teamsToShowC.length < this.groupC.length ||
-      this.teamsToShowD.length < this.groupD.length
-    ) {
+  updateTeamsToShow(teamAssignments: any)
+  {
+    for(let i = 0; i < 4; i++){
+      let teamA = teamAssignments['A'][i];
+      let teamB = teamAssignments['B'][i];
+      let teamC = teamAssignments['C'][i];
+      let teamD = teamAssignments['D'][i];
       setTimeout(() => {
-        this.updateTeamsToShow();
-      }, 1000);
+        this.teamsToShowA.push(teamA);
+        this.teamsToShowB.push(teamB);
+        this.teamsToShowC.push(teamC);
+        this.teamsToShowD.push(teamD);
+      }, 1000*(i));
     }
   }
+ 
+  generateTeamAssignments(seedTeams: Team[]): Group {
+    const cloneOtherTeams = [...DataInfo.OtherTeams];
+    const groups: Group = {
+      A: [],
+      B: [],
+      C: [],
+      D: []
+    };
+    //Shuffle seedTeams
+    this.shuffleArray(seedTeams);
+    //assign seed teams to groups
+    seedTeams.forEach((seedTeam, index) => {
+      const group = Object.keys(groups)[index];      
+      groups[group as keyof Group].push(seedTeam);
+    });
 
-  generateTeamAssignments(): string[][] {
-    const teamsSeed: string[] = [Teams.Stechco1, Teams.VietUnitedFC, Teams.CICC, Teams.CalgaryVFC];
-    const teamsOntario: string[] = [Teams.CTC, Teams.FCKingston, Teams.KWFC, Teams.BFC, Teams.YGOfVN, Teams.FCAE, Teams.LankFC];
-    const teamsQuebec: string[] = [Teams.SFC, Teams.VMU, Teams.Stechco2, Teams.FC3Mien, Teams.RBJunior];
-
-    //Random teams in these group before assign
-    this.shuffleArray(teamsSeed);
-    this.shuffleArray(teamsOntario);
-    this.shuffleArray(teamsQuebec);
-
-    const team2O1Q_1: string[] = [teamsQuebec[0], teamsOntario[0], teamsOntario[1]];
-    const team2O1Q_2: string[] = [teamsQuebec[1], teamsOntario[2], teamsOntario[3]];
-    const team2O1Q_3: string[] = [teamsQuebec[2], teamsOntario[4], teamsOntario[5]];
-    const team1O2Q: string[] = [teamsQuebec[3], teamsQuebec[4], teamsOntario[6]];
-
-    //Random teams in these group before assign
-    this.shuffleArray(team2O1Q_1);
-    this.shuffleArray(team2O1Q_2);
-    this.shuffleArray(team2O1Q_3);
-    this.shuffleArray(team1O2Q);
-
-    const teamsA: string[] = [];
-    const teamsB: string[] = [];
-    const teamsC: string[] = [];
-    const teamsD: string[] = [];
-
-    if (teamsSeed[0] == Teams.CICC) {
-      teamsA.push(teamsSeed[0]);
-      teamsA.push(team1O2Q[0]);
-      teamsA.push(team1O2Q[1]);
-      teamsA.push(team1O2Q[2]);
-
-      teamsB.push(teamsSeed[1]);
-      teamsB.push(team2O1Q_1[0]);
-      teamsB.push(team2O1Q_1[1]);
-      teamsB.push(team2O1Q_1[2]);
-
-      teamsC.push(teamsSeed[2]);
-      teamsC.push(team2O1Q_2[0]);
-      teamsC.push(team2O1Q_2[1]);
-      teamsC.push(team2O1Q_2[2]);
-
-      teamsD.push(teamsSeed[3]);
-      teamsD.push(team2O1Q_3[0]);
-      teamsD.push(team2O1Q_3[1]);
-      teamsD.push(team2O1Q_3[2]);
-    } else if (teamsSeed[1] == Teams.CICC) {
-      teamsB.push(teamsSeed[1]);
-      teamsB.push(team1O2Q[0]);
-      teamsB.push(team1O2Q[1]);
-      teamsB.push(team1O2Q[2]);
-
-      teamsA.push(teamsSeed[0]);
-      teamsA.push(team2O1Q_1[0]);
-      teamsA.push(team2O1Q_1[1]);
-      teamsA.push(team2O1Q_1[2]);
-
-      teamsC.push(teamsSeed[2]);
-      teamsC.push(team2O1Q_2[0]);
-      teamsC.push(team2O1Q_2[1]);
-      teamsC.push(team2O1Q_2[2]);
-
-      teamsD.push(teamsSeed[3]);
-      teamsD.push(team2O1Q_3[0]);
-      teamsD.push(team2O1Q_3[1]);
-      teamsD.push(team2O1Q_3[2]);
+    //Shuffle otherTeams
+    this.shuffleArray(cloneOtherTeams);
+    const stecho2Index = cloneOtherTeams.findIndex(team => team.name === Teams.Stechco2);
+    if (stecho2Index !== -1) {
+      cloneOtherTeams.push(...cloneOtherTeams.splice(stecho2Index, 1));
     }
-    else if (teamsSeed[2] == Teams.CICC) {
-      teamsC.push(teamsSeed[2]);
-      teamsC.push(team1O2Q[0]);
-      teamsC.push(team1O2Q[1]);
-      teamsC.push(team1O2Q[2]);
 
-      teamsA.push(teamsSeed[0]);
-      teamsA.push(team2O1Q_1[0]);
-      teamsA.push(team2O1Q_1[1]);
-      teamsA.push(team2O1Q_1[2]);
+    while (cloneOtherTeams.length > 0) {
+      const currentTeam: Team = cloneOtherTeams.pop()!;
+      for (const group in groups) {
+        const currentProvince = currentTeam.province;
+        let currentGroup = groups[group as keyof Group];
+        if (currentGroup
+          .every(team => !this.areSameClub(currentTeam, team) &&
+            !this.hasThreeTeamsFromSameProvince(currentGroup, currentProvince) &&
+            !this.isGroupFull(currentGroup))) {
+              currentGroup.push(currentTeam);
+              break;
+        }
+      }
+    }    
+    return groups;
+  }  
 
-      teamsB.push(teamsSeed[1]);
-      teamsB.push(team2O1Q_2[0]);
-      teamsB.push(team2O1Q_2[1]);
-      teamsB.push(team2O1Q_2[2]);
-
-      teamsD.push(teamsSeed[3]);
-      teamsD.push(team2O1Q_3[0]);
-      teamsD.push(team2O1Q_3[1]);
-      teamsD.push(team2O1Q_3[2]);
-    }
-    else if (teamsSeed[3] == Teams.CICC) {
-      teamsD.push(teamsSeed[3]);
-      teamsD.push(team1O2Q[0]);
-      teamsD.push(team1O2Q[1]);
-      teamsD.push(team1O2Q[2]);
-
-      teamsA.push(teamsSeed[0]);
-      teamsA.push(team2O1Q_1[0]);
-      teamsA.push(team2O1Q_1[1]);
-      teamsA.push(team2O1Q_1[2]);
-
-      teamsB.push(teamsSeed[1]);
-      teamsB.push(team2O1Q_2[0]);
-      teamsB.push(team2O1Q_2[1]);
-      teamsB.push(team2O1Q_2[2]);
-
-      teamsC.push(teamsSeed[2]);
-      teamsC.push(team2O1Q_3[0]);
-      teamsC.push(team2O1Q_3[1]);
-      teamsC.push(team2O1Q_3[2]);
-    }
-    //Check if 2 teams Stechco are valid (not at the same table)
-    if ((teamsA.includes(Teams.Stechco1) && teamsA.includes(Teams.Stechco2)) ||
-      (teamsB.includes(Teams.Stechco1) && teamsB.includes(Teams.Stechco2)) ||
-      (teamsC.includes(Teams.Stechco1) && teamsC.includes(Teams.Stechco2)) ||
-      (teamsD.includes(Teams.Stechco1) && teamsD.includes(Teams.Stechco2))
-    ) {
-      console.log('regenerateTeamAssignments()');
-      return [];
-
-    } else {
-      return [teamsA, teamsB, teamsC, teamsD];
-    }
-  }
   shuffleArray(array: any[]): void {
     for (let i = array.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
@@ -244,12 +149,25 @@ export class HomePage implements OnInit {
   getGroupData() {
     const navData: NavigationExtras = {
       queryParams: {
-        groupA: JSON.stringify(this.groupA),
-        groupB: JSON.stringify(this.groupB),
-        groupC: JSON.stringify(this.groupC),
-        groupD: JSON.stringify(this.groupD),
+        groupA: JSON.stringify(this.teamAssignments['A']),
+        groupB: JSON.stringify(this.teamAssignments['B']),
+        groupC: JSON.stringify(this.teamAssignments['C']),
+        groupD: JSON.stringify(this.teamAssignments['D'])
       }
     }
     return navData;
+  }
+
+  areSameClub(team1: Team, team2: Team) {
+    return team1.club === team2.club;
+  }
+
+  hasThreeTeamsFromSameProvince(group: Team[], province: string) {
+    const pronvinceCount = group.filter(team => team.province === province).length;
+    return pronvinceCount >= 3;
+  }
+
+  isGroupFull(group: any[]) {
+    return group.length >= 4;
   }
 }

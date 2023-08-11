@@ -1,7 +1,5 @@
-import { PlayerResult } from "./PlayerResult";
-
 export interface Team {
-    teamName: string;
-    teamLogoUrl: string;    
-    teamMembers: PlayerResult[]
-  }
+  name: string;
+  province: string;    
+  club: string;
+}
