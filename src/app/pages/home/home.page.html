@@ -18,7 +18,7 @@
       </span>
     </div>
     <div class="happy-tournament" *ngIf="repetitions != 0">
-      <span class="happy-tournament-text">{{ content }}</span>
+      <span class="happy-tournament-text">{{ content }} {{ repetitions != repeatTimes ? ' - ' + countdownDeplay + 's' : ''}}</span>
     </div>
     <ion-grid>
       <ion-row *ngIf="repetitions != 0">

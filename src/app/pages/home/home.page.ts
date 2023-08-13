@@ -20,7 +20,6 @@ export class HomePage implements OnInit {
     C: [],
     D: []
   };
-
   showCongratulations = false;
   regenerateInterval: any;
   repetitions: number = 0;
@@ -30,7 +29,9 @@ export class HomePage implements OnInit {
   teamsToShowB: Team[] = []; // Teams to show for Group B
   teamsToShowC: Team[] = []; // Teams to show for Group C
   teamsToShowD: Team[] = []; // Teams to show for Group D
-  countdown = 10;
+  countdown = 60;
+  waitTime: number = 120000; //1 minute
+  countdownDeplay = this.waitTime / 1000;
   constructor(private navCtrl: NavController, public commonFunctions: CommonFunctions) { }
 
   ngOnInit() {
@@ -51,14 +52,20 @@ export class HomePage implements OnInit {
     this.showCongratulations = false;
     this.repetitions = 0;
     this.generateTeams();
+    setInterval(() => {
+      this.countdownDeplay--;
+    }, 1000);
     this.regenerateInterval = setInterval(() => {
       this.generateTeams();
-    }, 10000);
+    }, this.waitTime);
   }
 
   generateTeams() {
+    this.countdownDeplay = this.waitTime / 1000;
     this.repetitions++;
-    this.content = this.repetitions != this.repeatTimes ? 'Bốc thăm thử lần thứ ' + this.repetitions : 'Kết quả bốc thăm chính thức';
+    this.content = this.repetitions != this.repeatTimes
+      ? 'Bốc thăm thử lần thứ ' + this.repetitions
+      : 'Kết quả bốc thăm chính thức';
     this.showCongratulations = this.repetitions == this.repeatTimes;
     // Stop regenerating after 5 repetitions
     if (this.repetitions == this.repeatTimes) {

@@ -47,7 +47,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.VietUnitedFC,
           playerName: 'Cuong Nguyen', //#2
           playerNumber: 6,
@@ -55,7 +55,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.VietUnitedFC,
           playerName: 'Dat Nguyen', //#3
           playerNumber: 1,
@@ -63,7 +63,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.VietUnitedFC,
           playerName: 'Duc Hung Nguyen', //#4
           playerNumber: 8,
@@ -71,7 +71,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.VietUnitedFC,
           playerName: 'Hao Pham', //#5
           playerNumber: 10,
@@ -79,7 +79,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.VietUnitedFC,
           playerName: 'Hiep Do', //#6
           playerNumber: 21,
@@ -87,15 +87,15 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.VietUnitedFC,
           playerName: 'Huy Phuc Loc Cao', //#7
           playerNumber: 23,
-          goals: 0,
-          assists: 0,
-          yellowCards: 0,
-          redCards: 0
-        },{
+          goals: 2,
+          assists: 3,
+          yellowCards: 1,
+          redCards: 1
+        }, {
           teamName: Teams.VietUnitedFC,
           playerName: 'Huy Phuoc Cao', //#8
           playerNumber: 23,
@@ -103,7 +103,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.VietUnitedFC,
           playerName: 'Linh Hoang', //#9
           playerNumber: 11,
@@ -111,7 +111,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.VietUnitedFC,
           playerName: 'Mai Kien', //#10
           playerNumber: 18,
@@ -119,7 +119,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.VietUnitedFC,
           playerName: 'Nguyen Le', //#11
           playerNumber: 9,
@@ -127,7 +127,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.VietUnitedFC,
           playerName: 'Phuong Nam Nguyen', //#12
           playerNumber: 14,
@@ -135,7 +135,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.VietUnitedFC,
           playerName: 'Tai Tran', //#13
           playerNumber: 19,
@@ -143,7 +143,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.VietUnitedFC,
           playerName: 'Thanh Luan Le', //#14
           playerNumber: 12,
@@ -151,7 +151,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.VietUnitedFC,
           playerName: 'Van Quang Cao', //#15
           playerNumber: 20,
@@ -159,7 +159,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.VietUnitedFC,
           playerName: 'Vy Trinh', //#16
           playerNumber: 24,
@@ -186,7 +186,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.CalgaryVFC,
           playerName: 'Tôn Nguyễn', //#2
           playerNumber: 12,
@@ -194,7 +194,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.CalgaryVFC,
           playerName: 'Sơn Dương', //#3
           playerNumber: 7,
@@ -202,7 +202,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.CalgaryVFC,
           playerName: 'Sơn Nguyễn', //#4
           playerNumber: 3,
@@ -210,7 +210,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.CalgaryVFC,
           playerName: 'Sơn Đinh', //#5
           playerNumber: 10,
@@ -218,7 +218,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.CalgaryVFC,
           playerName: 'Toàn Nguyễn', //#6
           playerNumber: 8,
@@ -226,7 +226,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.CalgaryVFC,
           playerName: 'Khoa Đinh', //#7
           playerNumber: 5,
@@ -234,7 +234,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.CalgaryVFC,
           playerName: 'Nhật Đinh', //#8
           playerNumber: 11,
@@ -242,7 +242,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.CalgaryVFC,
           playerName: 'Hùng Nguyễn', //#9
           playerNumber: 4,
@@ -250,7 +250,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.CalgaryVFC,
           playerName: 'Hiếu Nguyễn', //#10
           playerNumber: 9,
@@ -258,7 +258,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.CalgaryVFC,
           playerName: 'Trọng Lương', //#11
           playerNumber: 6,
@@ -266,7 +266,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.CalgaryVFC,
           playerName: 'Vĩnh Kiều', //#12
           playerNumber: 2,
@@ -274,7 +274,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.CalgaryVFC,
           playerName: 'Tuấn Anh Vũ', //#13
           playerNumber: 13,
@@ -282,7 +282,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.CalgaryVFC,
           playerName: 'Steven Mã', //#14
           playerNumber: 14,
@@ -309,7 +309,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.CICC,
           playerName: 'Huy Trinh', //#2
           playerNumber: 19,
@@ -317,7 +317,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.CICC,
           playerName: 'Quang Hoàng', //#3
           playerNumber: 20,
@@ -325,7 +325,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.CICC,
           playerName: 'Phuong Nguyen', //#4
           playerNumber: 23,
@@ -333,7 +333,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.CICC,
           playerName: 'Quỳnh Nguyễn', //#5
           playerNumber: 1,
@@ -341,7 +341,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.CICC,
           playerName: 'Tung Mai', //#6
           playerNumber: 33,
@@ -349,7 +349,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.CICC,
           playerName: 'Hoàn Cao', //#7
           playerNumber: 9,
@@ -357,7 +357,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.CICC,
           playerName: 'Sang Sang', //#8
           playerNumber: 66,
@@ -365,7 +365,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.CICC,
           playerName: 'Tuấn Anh Trịnh', //#9
           playerNumber: 6,
@@ -373,7 +373,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.CICC,
           playerName: 'Thế Bảo', //#10
           playerNumber: 24,
@@ -381,7 +381,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.CICC,
           playerName: 'Đạt Nguyễn', //#11
           playerNumber: 18,
@@ -389,7 +389,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.CICC,
           playerName: 'Tin Tran', //#12
           playerNumber: 25,
@@ -397,7 +397,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.CICC,
           playerName: 'Quốc Anh', //#13
           playerNumber: 15,
@@ -405,7 +405,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.CICC,
           playerName: 'Thiện Trần', //#14
           playerNumber: 5,
@@ -413,7 +413,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.CICC,
           playerName: 'Toàn Lê', //#15
           playerNumber: 4,
@@ -421,7 +421,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.CICC,
           playerName: 'Cường Phạm', //#16
           playerNumber: 86,
@@ -429,7 +429,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.CICC,
           playerName: 'Văn Hoá', //#17
           playerNumber: 68,
@@ -665,7 +665,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.KWFC,
           playerName: 'Tín Trương', // #2
           playerNumber: 0,
@@ -673,7 +673,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.KWFC,
           playerName: 'Thắng Đào', // #3
           playerNumber: 0,
@@ -681,7 +681,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.KWFC,
           playerName: 'Lê Văn Luân', // #4
           playerNumber: 0,
@@ -689,7 +689,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.KWFC,
           playerName: 'Nguyễn Thế Cường', // #5
           playerNumber: 0,
@@ -697,7 +697,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.KWFC,
           playerName: 'Nguyễn Trần Đức Huy', // #6
           playerNumber: 0,
@@ -705,7 +705,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.KWFC,
           playerName: 'Nguyễn Cao Quý', // #7
           playerNumber: 0,
@@ -713,7 +713,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.KWFC,
           playerName: 'Nguyễn Huỳnh Khôi Nguyên', // #8
           playerNumber: 0,
@@ -721,7 +721,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.KWFC,
           playerName: 'Ngô Đức Nguyên Khang', // #9
           playerNumber: 0,
@@ -729,7 +729,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.KWFC,
           playerName: 'Võ Trí Tài', // #10
           playerNumber: 0,
@@ -737,7 +737,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.KWFC,
           playerName: 'Trần Quốc Anh', // #11
           playerNumber: 0,
@@ -745,7 +745,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.KWFC,
           playerName: 'Trần Viết Bảo', // #12
           playerNumber: 0,
@@ -753,7 +753,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.KWFC,
           playerName: 'Nhân Võ', // #13
           playerNumber: 0,
@@ -761,7 +761,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.KWFC,
           playerName: 'Nguyễn Tiến', // #14
           playerNumber: 0,
@@ -769,7 +769,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.KWFC,
           playerName: 'Văn Công Lãm', // #15
           playerNumber: 0,
@@ -777,7 +777,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.KWFC,
           playerName: 'Vũ Đức Thông', // #16
           playerNumber: 0,
@@ -785,7 +785,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.KWFC,
           playerName: 'Dương Gia Kỳ', // #17
           playerNumber: 0,
@@ -793,7 +793,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.KWFC,
           playerName: 'Trần Phan Thông', // #18
           playerNumber: 0,
@@ -801,7 +801,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.KWFC,
           playerName: 'Trung Nguyên', // #19
           playerNumber: 0,
@@ -809,7 +809,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.KWFC,
           playerName: '', // #20
           playerNumber: 0,
@@ -950,7 +950,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.FC3Mien,
           playerName: 'Hanh Van', //#2
           playerNumber: 7,
@@ -958,7 +958,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.FC3Mien,
           playerName: 'Truong Pham', //#3
           playerNumber: 39,
@@ -966,7 +966,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.FC3Mien,
           playerName: 'Tung Uong', //#4
           playerNumber: 17,
@@ -974,7 +974,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.FC3Mien,
           playerName: 'Vy To', //#5
           playerNumber: 15,
@@ -982,7 +982,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.FC3Mien,
           playerName: 'Tai Tran', //#6
           playerNumber: 35,
@@ -990,7 +990,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.FC3Mien,
           playerName: 'Quang Pham', //#7
           playerNumber: 11,
@@ -998,7 +998,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.FC3Mien,
           playerName: 'Bao Tran', //#8
           playerNumber: 8,
@@ -1006,7 +1006,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.FC3Mien,
           playerName: 'Khoi Pham', //#9
           playerNumber: 30,
@@ -1014,7 +1014,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.FC3Mien,
           playerName: 'Loc Tran', //#10
           playerNumber: 99,
@@ -1022,7 +1022,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.FC3Mien,
           playerName: 'Kien Nguyen', //#11
           playerNumber: 2,
@@ -1030,7 +1030,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.FC3Mien,
           playerName: 'Phu Nguyen', //#12
           playerNumber: 9,
@@ -1038,7 +1038,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.FC3Mien,
           playerName: 'Kiet Nguyen', //#13
           playerNumber: 10,
@@ -1046,7 +1046,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.FC3Mien,
           playerName: 'Luat Nguyen', //#14
           playerNumber: 40,
@@ -1054,7 +1054,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.FC3Mien,
           playerName: 'Cuong Nguyen', //#15
           playerNumber: 32,
@@ -1062,7 +1062,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.FC3Mien,
           playerName: 'Phuoc Pham', //#16
           playerNumber: 1,
@@ -1070,7 +1070,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.FC3Mien,
           playerName: 'Thao Tran', //#17
           playerNumber: 5,
@@ -1078,7 +1078,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.FC3Mien,
           playerName: 'Hung Phan', //#18
           playerNumber: 29,
@@ -1086,7 +1086,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.FC3Mien,
           playerName: 'Ha Nguyen', //#19
           playerNumber: 21,
@@ -1094,7 +1094,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.FC3Mien,
           playerName: 'Kevin Phan', //#20
           playerNumber: 42,
@@ -1102,7 +1102,7 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        },{
+        }, {
           teamName: Teams.FC3Mien,
           playerName: 'Cuong Phan', //#21
           playerNumber: 43,

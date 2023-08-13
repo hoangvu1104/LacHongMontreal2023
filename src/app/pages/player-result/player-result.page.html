@@ -23,16 +23,21 @@
               <th>Tên cầu thủ</th>
               <th>Số áo</th>
               <th *ngIf="showGoalsStatic">Bàn thắng</th>
-              <th *ngIf="!showGoalsStatic">Kiến tạo</th>
+              <th *ngIf="showAssistsStatic">Kiến tạo</th>
+              <th *ngIf="showYellowCardsStatic">Số thẻ vảng</th>
+              <th *ngIf="showRedCardsStatic">Số thẻ đỏ</th>
             </tr>
           </thead>
           <tbody>
-            <tr *ngFor="let player of playerResults">
+            <tr *ngFor="let player of playerResults"
+            [ngStyle]="{'background-color': (player.yellowCards >=3) ? 'orange' : (player.redCards > 0 ? 'orange' : null) }">
               <td>{{player.teamName}}</td>
               <td>{{player.playerName}}</td>
               <td>{{player.playerNumber}}</td>
               <td *ngIf="showGoalsStatic">{{player.goals}}</td>
-              <td *ngIf="!showGoalsStatic" >{{player.assists}}</td>
+              <td *ngIf="showAssistsStatic" >{{player.assists}}</td>
+              <td *ngIf="showYellowCardsStatic" >{{player.yellowCards}}</td>
+              <td *ngIf="showRedCardsStatic" >{{player.redCards}}</td>
             </tr>
           </tbody>
         </table>
@@ -48,6 +53,14 @@
       <ion-item>
         <ion-label>Danh sách kiến tạo</ion-label>
         <ion-radio slot="end" value="assists"></ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-label>Danh sách nhận thẻ vàng</ion-label>
+        <ion-radio slot="end" value="yellowCards"></ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-label>Danh sách nhận thẻ đỏ</ion-label>
+        <ion-radio slot="end" value="redCards"></ion-radio>
       </ion-item>
     </ion-radio-group>
   </ion-list>

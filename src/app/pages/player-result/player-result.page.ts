@@ -10,6 +10,9 @@ import { Player } from 'src/models/Player';
 export class PlayerResultPage implements OnInit {
   playerResults: Player[] = [];
   showGoalsStatic = true;
+  showAssistsStatic = false;
+  showYellowCardsStatic = false;
+  showRedCardsStatic = false;
   displayTitle = '';
   constructor() {
 
@@ -17,6 +20,9 @@ export class PlayerResultPage implements OnInit {
 
   changValue(event: any) {
     this.showGoalsStatic = event.detail.value === 'goals';
+    this.showAssistsStatic = event.detail.value === 'assists';
+    this.showYellowCardsStatic = event.detail.value === 'yellowCards';
+    this.showRedCardsStatic = event.detail.value === 'redCards';
     this.playerResults = [];
     this.showPlayersResult();
   }
@@ -28,8 +34,12 @@ export class PlayerResultPage implements OnInit {
   showPlayersResult() {
     if (this.showGoalsStatic) {
       this.displayTitle = 'Danh sách cầu thủ ghi bàn';
-    } else {
+    } else if (this.showAssistsStatic) {
       this.displayTitle = 'Danh sách cầu thủ kiến tạo';
+    } else if (this.showYellowCardsStatic) {
+      this.displayTitle = 'Danh sách nhận thẻ vàng';
+    } else {
+      this.displayTitle = 'Danh sách nhận thẻ đỏ';
     }
     this.playerResults.push(
       ...DataInfo.VietUnitedFCPlayers.teamMembers, ...DataInfo.CalgaryVFCPlayers.teamMembers, ...DataInfo.Stechco1Players.teamMembers,
@@ -42,8 +52,12 @@ export class PlayerResultPage implements OnInit {
       .filter((p) => {
         if (this.showGoalsStatic) {
           return p.goals > 0;
-        } else {
+        } else if (this.showAssistsStatic) {
           return p.assists > 0;
+        } else if (this.showYellowCardsStatic) {
+          return p.yellowCards > 0;
+        } else {
+          return p.redCards > 0;
         }
       })
       .sort((a, b) => {
