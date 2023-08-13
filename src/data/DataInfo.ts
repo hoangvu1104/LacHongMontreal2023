@@ -91,10 +91,10 @@ export class DataInfo {
           teamName: Teams.VietUnitedFC,
           playerName: 'Huy Phuc Loc Cao', //#7
           playerNumber: 23,
-          goals: 2,
-          assists: 3,
-          yellowCards: 1,
-          redCards: 1
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
         }, {
           teamName: Teams.VietUnitedFC,
           playerName: 'Huy Phuoc Cao', //#8
