@@ -849,8 +849,152 @@ export class DataInfo {
       teamMembers: [
         {
           teamName: Teams.YGOfVN,
-          playerName: 'YGOfVN',
-          playerNumber: 0,
+          playerName: 'Tran, Le Minh Khoa', //#1
+          playerNumber: 1,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.YGOfVN,
+          playerName: 'Ngo, Viet Anh', //#2
+          playerNumber: 20,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.YGOfVN,
+          playerName: 'Mai, Thanh Trinh', //#3
+          playerNumber: 14,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.YGOfVN,
+          playerName: 'Nguyen, Duc Huy', //#4
+          playerNumber: 12,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.YGOfVN,
+          playerName: 'Tran, Van Thang', //#5
+          playerNumber: 34,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.YGOfVN,
+          playerName: 'Pham, Ngoc Thach', //#6
+          playerNumber: 3,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.YGOfVN,
+          playerName: 'Nguyen, Tien Linh', //#7
+          playerNumber: 35,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.YGOfVN,
+          playerName: 'Nguyen, Van Long', //#8
+          playerNumber: 18,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.YGOfVN,
+          playerName: 'Tran, Nhat Tan', //#9
+          playerNumber: 21,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.YGOfVN,
+          playerName: 'Trinh, Van Manh', //#10
+          playerNumber: 19,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.YGOfVN,
+          playerName: 'Ho, Huu Tai', //#11
+          playerNumber: 69,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.YGOfVN,
+          playerName: 'Ton, That Truong', //#12
+          playerNumber: 65,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.YGOfVN,
+          playerName: 'Nguyen, Quoc Tri', //#13
+          playerNumber: 13,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.YGOfVN,
+          playerName: 'Tín', //#14
+          playerNumber: 66,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.YGOfVN,
+          playerName: 'Dau, Van Quyet Thang', //#15
+          playerNumber: 11,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.YGOfVN,
+          playerName: 'Phung, Nam Tien', //#16
+          playerNumber: 7,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.YGOfVN,
+          playerName: 'Phung, Minh Hai', //#17
+          playerNumber: 9,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.YGOfVN,
+          playerName: 'Nguyen, Cong Anh Duy', //#18
+          playerNumber: 29,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.YGOfVN,
+          playerName: 'Long', //#19
+          playerNumber: 6,
           goals: 0,
           assists: 0,
           yellowCards: 0,
@@ -887,8 +1031,88 @@ export class DataInfo {
       teamMembers: [
         {
           teamName: Teams.LankFC,
-          playerName: 'LankFC',
-          playerNumber: 0,
+          playerName: 'Bảo Khanh', //#1
+          playerNumber: 1,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.LankFC,
+          playerName: 'Duy Hồ', //#2
+          playerNumber: 2,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.LankFC,
+          playerName: 'Tùng Vũ', //#3
+          playerNumber: 3,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.LankFC,
+          playerName: 'Phương Hồ', //#4
+          playerNumber: 4,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.LankFC,
+          playerName: 'Linh Mai', //#5
+          playerNumber: 5,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.LankFC,
+          playerName: 'An Hoàng', //#6
+          playerNumber: 6,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.LankFC,
+          playerName: 'Huy Than', //#7
+          playerNumber: 7,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.LankFC,
+          playerName: 'Nam Phạm', //#8
+          playerNumber: 8,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.LankFC,
+          playerName: 'Chiều Phạm', //#9
+          playerNumber: 9,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.LankFC,
+          playerName: 'Quang Minh', //#10
+          playerNumber: 11,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.LankFC,
+          playerName: 'Hoàng Anh', //#11
+          playerNumber: 12,
           goals: 0,
           assists: 0,
           yellowCards: 0,
