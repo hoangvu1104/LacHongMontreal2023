@@ -1130,8 +1130,152 @@ export class DataInfo {
       teamMembers: [
         {
           teamName: Teams.Stechco1,
-          playerName: 'Stechco 1',
+          playerName: 'Wilson Thai', //#1
+          playerNumber: 1,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco1,
+          playerName: 'Hoàng Minh', //#2
+          playerNumber: 31,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco1,
+          playerName: 'Bùi Hiển', //#3
+          playerNumber: 5,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco1,
+          playerName: 'Lê Việt Hưng', //#4
+          playerNumber: 22,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco1,
+          playerName: 'Nguyen Sy Quy', //#5
+          playerNumber: 6,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco1,
+          playerName: 'Pham Minh Quang', //#6
+          playerNumber: 33,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco1,
+          playerName: 'Dung Nguyen', //#7
+          playerNumber: 35,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco1,
+          playerName: 'Trương Tiến Dũng', //#8
+          playerNumber: 15,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco1,
+          playerName: 'Hoang Bao Pham', //#9
+          playerNumber: 7,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco1,
+          playerName: 'Tú Quách', //#10
+          playerNumber: 29,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco1,
+          playerName: 'Trịnh Nhật Huy', //#11
+          playerNumber: 8,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco1,
+          playerName: 'Esteban Hoàng', //#12
+          playerNumber: 81,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco1,
+          playerName: 'Phùng Anh Minh', //#13
+          playerNumber: 9,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco1,
+          playerName: 'Nguyễn Thanh Đức', //#14
+          playerNumber: 18,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco1,
+          playerName: 'Tuấn Trần', //#15
+          playerNumber: 21,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco1,
+          playerName: 'Nam Nguyen', //#16
+          playerNumber: 27,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco1,
+          playerName: 'Trung Đỗ', //#17
+          playerNumber: 20,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco1,
+          playerName: 'Vu Van Hung', //#18
           playerNumber: 0,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco1,
+          playerName: 'Huynh Minh Thanh', //#19
+          playerNumber: 23,
           goals: 0,
           assists: 0,
           yellowCards: 0,
@@ -1149,8 +1293,168 @@ export class DataInfo {
       teamMembers: [
         {
           teamName: Teams.Stechco2,
-          playerName: 'Stechco 2',
-          playerNumber: 0,
+          playerName: 'Trần Thanh Bình', //#1
+          playerNumber: 38,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco2,
+          playerName: 'Duong Binh Minh', //#2
+          playerNumber: 1,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco2,
+          playerName: 'Tuan Hue', //#3
+          playerNumber: 84,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco2,
+          playerName: 'Phước Thái', //#4
+          playerNumber: 13,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco2,
+          playerName: 'Đặng Hồng Khanh', //#5
+          playerNumber: 16,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco2,
+          playerName: 'Đào Ngọc Hà', //#6
+          playerNumber: 3,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco2,
+          playerName: 'Lê Huy Bình', //#7
+          playerNumber: 11,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco2,
+          playerName: 'KHUONG Kim Hung', //#8
+          playerNumber: 2,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco2,
+          playerName: 'Nguyễn Công Long', //#9
+          playerNumber: 37,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco2,
+          playerName: 'Ton Viet Hung', //#10
+          playerNumber: 36,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco2,
+          playerName: 'Nguyen Minh Triet', //#11
+          playerNumber: 18,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco2,
+          playerName: 'Ho Cong Tai', //#12
+          playerNumber: 17,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco2,
+          playerName: 'Huỳnh Duy Khoa', //#13
+          playerNumber: 4,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco2,
+          playerName: 'Nguyen Dac Anh Son', //#14
+          playerNumber: 99,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco2,
+          playerName: 'Phạm Minh Nhã', //#15
+          playerNumber: 29,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco2,
+          playerName: 'Giang Nam', //#16
+          playerNumber: 28,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco2,
+          playerName: 'Nam Vu', //#17
+          playerNumber: 30,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco2,
+          playerName: 'Đình Quý', //#18
+          playerNumber: 12,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco2,
+          playerName: 'Hoang', //#19
+          playerNumber: 41,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco2,
+          playerName: 'Nguyễn Hữu Dũng', //#20
+          playerNumber: 25,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.Stechco2,
+          playerName: 'Kieu Cuong', //#21
+          playerNumber: 35,
           goals: 0,
           assists: 0,
           yellowCards: 0,
@@ -1385,8 +1689,120 @@ export class DataInfo {
       teamMembers: [
         {
           teamName: Teams.RBJunior,
-          playerName: 'SFC Player',
-          playerNumber: 0,
+          playerName: 'Vuong Dinh Hoan (C)', //#1
+          playerNumber: 19,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.RBJunior,
+          playerName: 'Vo Hoang Khuong', //#2
+          playerNumber: 49,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.RBJunior,
+          playerName: 'Ngo ba tuyen', //#3
+          playerNumber: 10,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.RBJunior,
+          playerName: 'Ngo tien dat', //#4
+          playerNumber: 29,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.RBJunior,
+          playerName: 'Nguyen Truong Nguyen', //#5
+          playerNumber: 8,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.RBJunior,
+          playerName: 'Nguyen hoang quoc anh', //#6
+          playerNumber: 25,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.RBJunior,
+          playerName: 'Vo Duong Huy', //#7
+          playerNumber: 30,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.RBJunior,
+          playerName: 'Duong Quang Huy', //#8
+          playerNumber: 12,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.RBJunior,
+          playerName: 'Pham Hoang Anh', //#9
+          playerNumber: 22,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.RBJunior,
+          playerName: 'Minh Hoang', //#10
+          playerNumber: 23,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.RBJunior,
+          playerName: 'Dung nho', //#11
+          playerNumber: 3,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.RBJunior,
+          playerName: 'Nguyen ngoc anh huy', //#12
+          playerNumber: 6,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.RBJunior,
+          playerName: 'Bui phan tung', //#13
+          playerNumber: 11,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.RBJunior,
+          playerName: 'Huy Hoang', //#14
+          playerNumber: 20,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.RBJunior,
+          playerName: 'Steven Hoang', //#15
+          playerNumber: 24,
           goals: 0,
           assists: 0,
           yellowCards: 0,
