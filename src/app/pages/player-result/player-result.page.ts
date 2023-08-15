@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { DataInfo } from 'src/data/DataInfo';
 import { Player } from 'src/models/Player';
+import { StaticVariable } from 'src/shared/staticVariable';
 
 @Component({
   selector: 'app-player-result',
@@ -8,6 +9,7 @@ import { Player } from 'src/models/Player';
   styleUrls: ['./player-result.page.scss'],
 })
 export class PlayerResultPage implements OnInit {
+  imagePath = StaticVariable.ImagesPath + 'Logo.JPG';
   playerResults: Player[] = [];
   showGoalsStatic = true;
   showAssistsStatic = false;

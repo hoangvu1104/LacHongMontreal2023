@@ -29,8 +29,8 @@ export class HomePage implements OnInit {
   teamsToShowB: Team[] = []; // Teams to show for Group B
   teamsToShowC: Team[] = []; // Teams to show for Group C
   teamsToShowD: Team[] = []; // Teams to show for Group D
-  countdown = 60;
-  waitTime: number = 120000; //1 minute
+  countdown = 30;
+  waitTime: number = 60000; //1 minute
   countdownDeplay = this.waitTime / 1000;
   constructor(private navCtrl: NavController, public commonFunctions: CommonFunctions) { }
 
