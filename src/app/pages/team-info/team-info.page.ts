@@ -23,7 +23,7 @@ export class TeamInfoPage implements OnInit {
         this.teamInfo = DataInfo.Stechco1Players;
         break;
       case Teams.Stechco2:
-        this.teamInfo = DataInfo.Stechco1Players;
+        this.teamInfo = DataInfo.Stechco2Players;
         break;
       case Teams.FC3Mien:
         this.teamInfo = DataInfo.FC3MienPlayers;

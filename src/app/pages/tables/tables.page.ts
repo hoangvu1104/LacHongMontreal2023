@@ -10,10 +10,10 @@ import { Teams } from 'src/shared/teams';
   styleUrls: ['./tables.page.scss'],
 })
 export class TablesPage implements OnInit {
-  groupA = [Teams.Stechco1, Teams.Stechco2, Teams.Stechco1, Teams.RBJunior];
-  groupB = [Teams.FC3Mien, Teams.BFC, Teams.Stechco1, Teams.VMU];
-  groupC = [Teams.FC3Mien, Teams.BFC, Teams.Stechco1, Teams.VMU];
-  groupD = [Teams.FC3Mien, Teams.BFC, Teams.Stechco1, Teams.VMU];
+  groupA = [Teams.VietUnitedFC, Teams.CTC, Teams.YGOfVN, Teams.RBJunior];
+  groupB = [Teams.CalgaryVFC, Teams.FCKingston, Teams.FCAE, Teams.FC3Mien];
+  groupC = [Teams.CICC, Teams.KWFC, Teams.Stechco2, Teams.VMU];
+  groupD = [Teams.Stechco1, Teams.BFC, Teams.LankFC, Teams.SFC];
 
   constructor(public commonFunctions: CommonFunctions, private navCtrl: NavController) { }
 
