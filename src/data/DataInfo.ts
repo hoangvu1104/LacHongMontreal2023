@@ -809,14 +809,6 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0
-        }, {
-          teamName: Teams.KWFC,
-          playerName: '', // #20
-          playerNumber: 0,
-          goals: 0,
-          assists: 0,
-          yellowCards: 0,
-          redCards: 0
         }
       ].sort((a, b) => {
         return a.playerNumber - b.playerNumber;
@@ -1651,8 +1643,200 @@ export class DataInfo {
       teamMembers: [
         {
           teamName: Teams.VMU,
-          playerName: 'VMU Player',
+          playerName: 'Trần Trung An', //#1
+          playerNumber: 27,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.VMU,
+          playerName: 'Trần Tuấn Hào', //#2
+          playerNumber: 31,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.VMU,
+          playerName: 'Trần Trung Tín', //#3
+          playerNumber: 12,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.VMU,
+          playerName: 'Nguyễn Thái Sơn', //#4
+          playerNumber: 66,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.VMU,
+          playerName: 'Nguyễn Vũ Thắng', //#5
+          playerNumber: 60,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.VMU,
+          playerName: 'Hồ Trung Kiên', //#6
+          playerNumber: 97,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.VMU,
+          playerName: 'Trương Minh Lương', //#7
+          playerNumber: 80,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.VMU,
+          playerName: 'Nguyễn Công Hoan', //#8
+          playerNumber: 25,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.VMU,
+          playerName: 'Lê An Vinh', //#9
+          playerNumber: 15,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.VMU,
+          playerName: 'Văn Nhật Nguyên', //#10
+          playerNumber: 91,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.VMU,
+          playerName: 'Đào Duy Khánh', //#11
+          playerNumber: 58,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.VMU,
+          playerName: 'Trương Minh Đạo', //#12
+          playerNumber: 80,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.VMU,
+          playerName: 'Lê Bảo Đăng', //#13
+          playerNumber: 89,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.VMU,
+          playerName: 'Trần Vinh Hào', //#14
+          playerNumber: 92,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.VMU,
+          playerName: 'Đỗ Trần Minh Quân', //#15
+          playerNumber: 49,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.VMU,
+          playerName: 'Phạm Thành Phát', //#16
           playerNumber: 0,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.VMU,
+          playerName: 'Nguyễn Anh Kiệt', //#17
+          playerNumber: 55,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.VMU,
+          playerName: 'Hồ Lê Sơn Giang', //#18
+          playerNumber: 0,
+          goals: 0,
+          assists: 0,
+          yellowCards: 14,
+          redCards: 0
+        }, {
+          teamName: Teams.VMU,
+          playerName: 'Nguyễn Thanh Duẫn', //#19
+          playerNumber: 77,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.VMU,
+          playerName: 'Nguyễn Trần Tim', //#20
+          playerNumber: 2003,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.VMU,
+          playerName: 'Steven Hà', //#21
+          playerNumber: 81,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.VMU,
+          playerName: 'Nguyễn Việt Nam', //#22
+          playerNumber: 22,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.VMU,
+          playerName: 'Đoàn Thanh Tùng', //#23
+          playerNumber: 13,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.VMU,
+          playerName: 'Nguyễn Ngọc Duy', //#24
+          playerNumber: 41,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.VMU,
+          playerName: 'Alexandre Đặng Minh Nhân', //#25
+          playerNumber: 86,
           goals: 0,
           assists: 0,
           yellowCards: 0,
