@@ -1020,8 +1020,136 @@ export class DataInfo {
       teamMembers: [
         {
           teamName: Teams.FCAE,
-          playerName: 'FCAE',
-          playerNumber: 0,
+          playerName: 'Nguyễn Tự Do', //#1
+          playerNumber: 8,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.FCAE,
+          playerName: 'Nguyễn Minh Tấn', //#2
+          playerNumber: 7,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.FCAE,
+          playerName: 'Phạm Văn Khiêm', //#3
+          playerNumber: 9,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.FCAE,
+          playerName: 'Nguyễn Chí Quốc', //#4
+          playerNumber: 1,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.FCAE,
+          playerName: 'Nguyễn Minh Tuấn', //#5
+          playerNumber: 99,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.FCAE,
+          playerName: 'Nguyễn Hải Nam', //#6
+          playerNumber: 19,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.FCAE,
+          playerName: 'Phan Văn Thủy', //#7
+          playerNumber: 10,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.FCAE,
+          playerName: 'Nguyễn Minh Trung', //#8
+          playerNumber: 17,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.FCAE,
+          playerName: 'Nguyễn Tuấn Anh', //#9
+          playerNumber: 5,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.FCAE,
+          playerName: 'Nguyễn Huy Công', //#10
+          playerNumber: 2,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.FCAE,
+          playerName: 'Nguyễn Ngọc Đức', //#11
+          playerNumber: 21,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.FCAE,
+          playerName: 'Trần Minh Hiếu', //#12
+          playerNumber: 11,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.FCAE,
+          playerName: 'Tăng Đình Võ', //#13
+          playerNumber: 88,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.FCAE,
+          playerName: 'Trần Ngọc Anh', //#14
+          playerNumber: 6,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.FCAE,
+          playerName: 'Trần Văn Quân', //#15
+          playerNumber: 15,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.FCAE,
+          playerName: 'Nguyễn Anh Khoa', //#16
+          playerNumber: 4,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.FCAE,
+          playerName: 'Nguyễn Văn Hùng', //#17
+          playerNumber: 12,
           goals: 0,
           assists: 0,
           yellowCards: 0,
