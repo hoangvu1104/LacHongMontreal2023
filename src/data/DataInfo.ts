@@ -303,7 +303,7 @@ export class DataInfo {
       teamMembers: [
         {
           teamName: Teams.CICC,
-          playerName: 'Nam Dinh', //#1
+          playerName: 'Nam Dinh (C)', //#1
           playerNumber: 7,
           goals: 0,
           assists: 0,
@@ -433,6 +433,22 @@ export class DataInfo {
           teamName: Teams.CICC,
           playerName: 'Văn Hoá', //#17
           playerNumber: 68,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.CICC,
+          playerName: 'Thắng Phạm', //#18
+          playerNumber: 3,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.CICC,
+          playerName: 'Hòa Phạm', //#19
+          playerNumber: 38,
           goals: 0,
           assists: 0,
           yellowCards: 0,
@@ -1684,7 +1700,7 @@ export class DataInfo {
         }, {
           teamName: Teams.VMU,
           playerName: 'Hồ Trung Kiên', //#6
-          playerNumber: 97,
+          playerNumber: 17,
           goals: 0,
           assists: 0,
           yellowCards: 0,
@@ -1780,10 +1796,10 @@ export class DataInfo {
         }, {
           teamName: Teams.VMU,
           playerName: 'Hồ Lê Sơn Giang', //#18
-          playerNumber: 0,
+          playerNumber: 14,
           goals: 0,
           assists: 0,
-          yellowCards: 14,
+          yellowCards: 0,
           redCards: 0
         }, {
           teamName: Teams.VMU,
@@ -1854,8 +1870,120 @@ export class DataInfo {
       teamMembers: [
         {
           teamName: Teams.SFC,
-          playerName: 'SFC Player',
-          playerNumber: 0,
+          playerName: 'Phạm Hồng Phước (C)', //#1
+          playerNumber: 88,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.SFC,
+          playerName: 'Nguyễn Thanh Phước', //#2
+          playerNumber: 94,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.SFC,
+          playerName: 'Đức Nguyễn', //#3
+          playerNumber: 7,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.SFC,
+          playerName: 'Diên Hồ', //#4
+          playerNumber: 97,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.SFC,
+          playerName: 'Nguyễn Mạnh Tùng', //#5
+          playerNumber: 16,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.SFC,
+          playerName: 'Nguyễn Thanh Hùng', //#6
+          playerNumber: 30,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.SFC,
+          playerName: 'Nguyễn Bảo Châu', //#7
+          playerNumber: 4,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.SFC,
+          playerName: 'Tường Nam', //#8
+          playerNumber: 10,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.SFC,
+          playerName: 'Tường Minh', //#9
+          playerNumber: 11,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.SFC,
+          playerName: 'Nguyễn Tiến Thành', //#10
+          playerNumber: 29,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.SFC,
+          playerName: 'Nguyễn Vũ Thắng', //#11
+          playerNumber: 9,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.SFC,
+          playerName: 'Đinh Hoàng Lân', //#12
+          playerNumber: 14,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.SFC,
+          playerName: 'Phạm Anh Tuấn', //#13
+          playerNumber: 1,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.SFC,
+          playerName: 'Trí Nguyễn', //#14
+          playerNumber: 24,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.SFC,
+          playerName: 'Đặng Văn Bình', //#15
+          playerNumber: 89,
           goals: 0,
           assists: 0,
           yellowCards: 0,

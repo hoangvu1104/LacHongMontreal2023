@@ -4,7 +4,7 @@
         <ion-list>
           <ion-item *ngFor="let team of listTeams;let i = index" class="team-item"  (click)="loadTeamInfo(team.name)">
             <div class="team-name">#{{ i + 1 }}</div>
-            <div class="team-name">{{ team.name }}</div>
+            <div class="team-name">{{ team.name }} ({{ team.province }})</div>
             <img [src]="getTeamImageStyle(team.name)" class="team-image">
           </ion-item>
         </ion-list>
