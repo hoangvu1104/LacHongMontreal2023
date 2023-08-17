@@ -1659,7 +1659,7 @@ export class DataInfo {
       teamMembers: [
         {
           teamName: Teams.VMU,
-          playerName: 'Trần Trung An', //#1
+          playerName: 'Trần Trung An (C)', //#1
           playerNumber: 27,
           goals: 0,
           assists: 0,
