@@ -19,6 +19,7 @@
         <table class="team-members">
           <thead>
             <tr>
+              <th>#</th>
               <th>Tên cầu thủ</th>
               <th style="text-align: center;">Số áo</th>
               <th class="textDisplay">Bàn thắng</th>
@@ -28,7 +29,8 @@
             </tr>
           </thead>
           <tbody>
-            <tr *ngFor="let player of teamInfo?.teamMembers">
+            <tr *ngFor="let player of teamInfo?.teamMembers;let i = index">
+              <td>{{ i+1 }}</td>
               <td>{{player.playerName}}</td>
               <td style="text-align: center;">{{player.playerNumber}}</td>
               <td style="text-align: center;">{{player.goals}}</td>

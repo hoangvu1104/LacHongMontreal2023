@@ -181,14 +181,14 @@ export class DataInfo {
         {
           teamName: Teams.CalgaryVFC,
           playerName: 'Minh Mã', //#1
-          playerNumber: 2,
+          playerNumber: 21,
           goals: 0,
           assists: 0,
           yellowCards: 0,
           redCards: 0
         }, {
           teamName: Teams.CalgaryVFC,
-          playerName: 'Tôn Nguyễn', //#2
+          playerName: 'Tôn Nguyễn (C)', //#2
           playerNumber: 12,
           goals: 0,
           assists: 0,
@@ -196,15 +196,23 @@ export class DataInfo {
           redCards: 0
         }, {
           teamName: Teams.CalgaryVFC,
-          playerName: 'Sơn Dương', //#3
-          playerNumber: 7,
+          playerName: 'Vinh Tăng', //#3
+          playerNumber: 1,
           goals: 0,
           assists: 0,
           yellowCards: 0,
           redCards: 0
         }, {
           teamName: Teams.CalgaryVFC,
-          playerName: 'Sơn Nguyễn', //#4
+          playerName: 'Thế Anh Trần', //#4
+          playerNumber: 2,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.CalgaryVFC,
+          playerName: 'Trọng Lương', //#5
           playerNumber: 3,
           goals: 0,
           assists: 0,
@@ -212,16 +220,8 @@ export class DataInfo {
           redCards: 0
         }, {
           teamName: Teams.CalgaryVFC,
-          playerName: 'Sơn Đinh', //#5
-          playerNumber: 10,
-          goals: 0,
-          assists: 0,
-          yellowCards: 0,
-          redCards: 0
-        }, {
-          teamName: Teams.CalgaryVFC,
-          playerName: 'Toàn Nguyễn', //#6
-          playerNumber: 8,
+          playerName: 'Hùng Nguyễn', //#6
+          playerNumber: 4,
           goals: 0,
           assists: 0,
           yellowCards: 0,
@@ -236,31 +236,7 @@ export class DataInfo {
           redCards: 0
         }, {
           teamName: Teams.CalgaryVFC,
-          playerName: 'Nhật Đinh', //#8
-          playerNumber: 11,
-          goals: 0,
-          assists: 0,
-          yellowCards: 0,
-          redCards: 0
-        }, {
-          teamName: Teams.CalgaryVFC,
-          playerName: 'Hùng Nguyễn', //#9
-          playerNumber: 4,
-          goals: 0,
-          assists: 0,
-          yellowCards: 0,
-          redCards: 0
-        }, {
-          teamName: Teams.CalgaryVFC,
-          playerName: 'Hiếu Nguyễn', //#10
-          playerNumber: 9,
-          goals: 0,
-          assists: 0,
-          yellowCards: 0,
-          redCards: 0
-        }, {
-          teamName: Teams.CalgaryVFC,
-          playerName: 'Trọng Lương', //#11
+          playerName: 'Nha Lê', //#8
           playerNumber: 6,
           goals: 0,
           assists: 0,
@@ -268,15 +244,47 @@ export class DataInfo {
           redCards: 0
         }, {
           teamName: Teams.CalgaryVFC,
-          playerName: 'Vĩnh Kiều', //#12
-          playerNumber: 2,
+          playerName: 'Steven Mã', //#9
+          playerNumber: 7,
           goals: 0,
           assists: 0,
           yellowCards: 0,
           redCards: 0
         }, {
           teamName: Teams.CalgaryVFC,
-          playerName: 'Tuấn Anh Vũ', //#13
+          playerName: 'Toàn Nguyễn', //#10
+          playerNumber: 8,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.CalgaryVFC,
+          playerName: 'Hiếu Nguyễn', //#11
+          playerNumber: 9,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.CalgaryVFC,
+          playerName: 'Sơn Đinh', //#12
+          playerNumber: 10,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.CalgaryVFC,
+          playerName: 'Nhật Đinh', //#13
+          playerNumber: 11,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.CalgaryVFC,
+          playerName: 'Anh Vũ', //#14
           playerNumber: 13,
           goals: 0,
           assists: 0,
@@ -284,8 +292,32 @@ export class DataInfo {
           redCards: 0
         }, {
           teamName: Teams.CalgaryVFC,
-          playerName: 'Steven Mã', //#14
+          playerName: 'Vĩnh Kiều', //#15
           playerNumber: 14,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.CalgaryVFC,
+          playerName: 'Nguyên Bùi', //#16
+          playerNumber: 15,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.CalgaryVFC,
+          playerName: 'Thanh Bùi', //#17
+          playerNumber: 16,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.CalgaryVFC,
+          playerName: 'Việt Mai', //#18
+          playerNumber: 17,
           goals: 0,
           assists: 0,
           yellowCards: 0,
@@ -656,8 +688,96 @@ export class DataInfo {
       teamMembers: [
         {
           teamName: Teams.FCKingston,
-          playerName: 'FCKingston',
-          playerNumber: 0,
+          playerName: 'BÙI QUANG THẮNG', //#1
+          playerNumber: 6,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.FCKingston,
+          playerName: 'PHẠM HOÀNG NAM',//#2
+          playerNumber: 10,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.FCKingston,
+          playerName: 'NGUYỄN TRƯỜNG SƠN',//#3
+          playerNumber: 8,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.FCKingston,
+          playerName: 'NGUYỄN QUỐC CHUNG',//#4
+          playerNumber: 7,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.FCKingston,
+          playerName: 'ĐOÀN QUỐC VƯƠNG',//#5
+          playerNumber: 5,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.FCKingston,
+          playerName: 'VŨ HOÀNG ANH',//#6
+          playerNumber: 14,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.FCKingston,
+          playerName: 'ĐỒNG TUẤN DƯƠNG',//#7
+          playerNumber: 19,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.FCKingston,
+          playerName: 'SÁNG LÊ',//#8
+          playerNumber: 9,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.FCKingston,
+          playerName: 'THÁI ZUBI',//#9
+          playerNumber: 20,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.FCKingston,
+          playerName: 'ĐẬU THẾ DIỆU',//#10
+          playerNumber: 11,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.FCKingston,
+          playerName: 'JACKSON BUI',//#11
+          playerNumber: 22,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.FCKingston,
+          playerName: 'NGUYỄN QUỐC HÙNG',//#12
+          playerNumber: 21,
           goals: 0,
           assists: 0,
           yellowCards: 0,
@@ -838,7 +958,151 @@ export class DataInfo {
       teamMembers: [
         {
           teamName: Teams.BFC,
-          playerName: 'BFC',
+          playerName: 'Nguyễn Đức Bảo Toàn (C)',  //#1
+          playerNumber: 0,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.BFC,
+          playerName: 'Lê Thế Đại Phong',  //#2
+          playerNumber: 0,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.BFC,
+          playerName: 'Lưu Chí Đức',  //#3
+          playerNumber: 0,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.BFC,
+          playerName: 'Trần Ngọc Hoàng Quân',  //#4
+          playerNumber: 0,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.BFC,
+          playerName: 'Tâm Nguyễn',  //#5
+          playerNumber: 0,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.BFC,
+          playerName: 'Thắng Đỗ',  //#6
+          playerNumber: 0,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.BFC,
+          playerName: 'Thế Hùng',  //#7
+          playerNumber: 0,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.BFC,
+          playerName: 'Hiễu Võ',  //#8
+          playerNumber: 0,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.BFC,
+          playerName: 'Đức Vũ',  //#9
+          playerNumber: 0,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.BFC,
+          playerName: 'Đức Anh Nguyễn',  //#10
+          playerNumber: 0,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.BFC,
+          playerName: 'Kyan Nguyễn',  //#11
+          playerNumber: 0,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.BFC,
+          playerName: 'Cubon Nguyễn',  //#12
+          playerNumber: 0,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.BFC,
+          playerName: 'Hồ Minh Trúc',  //#13
+          playerNumber: 0,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.BFC,
+          playerName: 'Việt Trần',  //#14
+          playerNumber: 0,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.BFC,
+          playerName: 'Nguyễn Công Khang',  //#15
+          playerNumber: 0,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.BFC,
+          playerName: 'Nathan Gawargy',  //#16
+          playerNumber: 0,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.BFC,
+          playerName: 'Hoàng Trương',  //#17
+          playerNumber: 0,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.BFC,
+          playerName: 'Nguyễn Xuân Đính',  //#18
+          playerNumber: 0,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0
+        }, {
+          teamName: Teams.BFC,
+          playerName: 'Hoàng Võ',  //#19
           playerNumber: 0,
           goals: 0,
           assists: 0,
