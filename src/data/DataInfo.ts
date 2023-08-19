@@ -46,7 +46,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1988
         }, {
           teamName: Teams.VietUnitedFC,
           playerName: 'Cuong Nguyen', //#2
@@ -54,7 +54,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1983
         }, {
           teamName: Teams.VietUnitedFC,
           playerName: 'Dat Nguyen', //#3
@@ -62,7 +62,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2004
         }, {
           teamName: Teams.VietUnitedFC,
           playerName: 'Duc Hung Nguyen', //#4
@@ -70,7 +70,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1980
         }, {
           teamName: Teams.VietUnitedFC,
           playerName: 'Hao Pham', //#5
@@ -78,7 +78,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1983
         }, {
           teamName: Teams.VietUnitedFC,
           playerName: 'Hiep Do', //#6
@@ -86,7 +86,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1999
         }, {
           teamName: Teams.VietUnitedFC,
           playerName: 'Huy Phuc Loc Cao', //#7
@@ -94,7 +94,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2003
         }, {
           teamName: Teams.VietUnitedFC,
           playerName: 'Huy Phuoc Cao', //#8
@@ -102,7 +102,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1991
         }, {
           teamName: Teams.VietUnitedFC,
           playerName: 'Linh Hoang', //#9
@@ -110,7 +110,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2001
         }, {
           teamName: Teams.VietUnitedFC,
           playerName: 'Mai Kien', //#10
@@ -118,7 +118,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2004
         }, {
           teamName: Teams.VietUnitedFC,
           playerName: 'Nguyen Le', //#11
@@ -126,7 +126,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1980
         }, {
           teamName: Teams.VietUnitedFC,
           playerName: 'Phuong Nam Nguyen', //#12
@@ -134,7 +134,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1984
         }, {
           teamName: Teams.VietUnitedFC,
           playerName: 'Tai Tran', //#13
@@ -142,7 +142,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1996
         }, {
           teamName: Teams.VietUnitedFC,
           playerName: 'Thanh Luan Le', //#14
@@ -150,7 +150,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1986
         }, {
           teamName: Teams.VietUnitedFC,
           playerName: 'Van Quang Cao', //#15
@@ -158,7 +158,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.VietUnitedFC,
           playerName: 'Vy Trinh', //#16
@@ -166,7 +166,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1982
         }
       ].sort((a, b) => {
         return a.playerNumber - b.playerNumber;
@@ -185,7 +185,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1975
         }, {
           teamName: Teams.CalgaryVFC,
           playerName: 'Tôn Nguyễn (C)', //#2
@@ -193,7 +193,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1986
         }, {
           teamName: Teams.CalgaryVFC,
           playerName: 'Vinh Tăng', //#3
@@ -201,7 +201,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2003
         }, {
           teamName: Teams.CalgaryVFC,
           playerName: 'Thế Anh Trần', //#4
@@ -209,7 +209,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1989
         }, {
           teamName: Teams.CalgaryVFC,
           playerName: 'Trọng Lương', //#5
@@ -217,7 +217,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1989
         }, {
           teamName: Teams.CalgaryVFC,
           playerName: 'Hùng Nguyễn', //#6
@@ -225,7 +225,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1991
         }, {
           teamName: Teams.CalgaryVFC,
           playerName: 'Khoa Đinh', //#7
@@ -233,7 +233,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1987
         }, {
           teamName: Teams.CalgaryVFC,
           playerName: 'Nha Lê', //#8
@@ -241,7 +241,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1992
         }, {
           teamName: Teams.CalgaryVFC,
           playerName: 'Steven Mã', //#9
@@ -249,7 +249,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.CalgaryVFC,
           playerName: 'Toàn Nguyễn', //#10
@@ -257,7 +257,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1985
         }, {
           teamName: Teams.CalgaryVFC,
           playerName: 'Hiếu Nguyễn', //#11
@@ -265,7 +265,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1995
         }, {
           teamName: Teams.CalgaryVFC,
           playerName: 'Sơn Đinh', //#12
@@ -273,7 +273,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1984
         }, {
           teamName: Teams.CalgaryVFC,
           playerName: 'Nhật Đinh', //#13
@@ -281,7 +281,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1993
         }, {
           teamName: Teams.CalgaryVFC,
           playerName: 'Anh Vũ', //#14
@@ -289,7 +289,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1990
         }, {
           teamName: Teams.CalgaryVFC,
           playerName: 'Vĩnh Kiều', //#15
@@ -297,7 +297,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1998
         }, {
           teamName: Teams.CalgaryVFC,
           playerName: 'Nguyên Bùi', //#16
@@ -305,7 +305,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1980
         }, {
           teamName: Teams.CalgaryVFC,
           playerName: 'Thanh Bùi', //#17
@@ -313,7 +313,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1997
         }, {
           teamName: Teams.CalgaryVFC,
           playerName: 'Việt Mai', //#18
@@ -321,7 +321,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1990
         }
       ].sort((a, b) => {
         return a.playerNumber - b.playerNumber;
@@ -340,7 +340,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1995
         }, {
           teamName: Teams.CICC,
           playerName: 'Huy Trinh', //#2
@@ -348,7 +348,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1990
         }, {
           teamName: Teams.CICC,
           playerName: 'Quang Hoàng', //#3
@@ -356,7 +356,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1991
         }, {
           teamName: Teams.CICC,
           playerName: 'Phuong Nguyen', //#4
@@ -364,7 +364,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1987
         }, {
           teamName: Teams.CICC,
           playerName: 'Quỳnh Nguyễn', //#5
@@ -372,7 +372,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1999
         }, {
           teamName: Teams.CICC,
           playerName: 'Tung Mai', //#6
@@ -380,7 +380,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1994
         }, {
           teamName: Teams.CICC,
           playerName: 'Hoàn Cao', //#7
@@ -388,7 +388,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1997
         }, {
           teamName: Teams.CICC,
           playerName: 'Sang Sang', //#8
@@ -396,7 +396,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2003
         }, {
           teamName: Teams.CICC,
           playerName: 'Tuấn Anh Trịnh', //#9
@@ -404,7 +404,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1988
         }, {
           teamName: Teams.CICC,
           playerName: 'Thế Bảo', //#10
@@ -412,7 +412,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1999
         }, {
           teamName: Teams.CICC,
           playerName: 'Đạt Nguyễn', //#11
@@ -420,7 +420,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1990
         }, {
           teamName: Teams.CICC,
           playerName: 'Tin Tran', //#12
@@ -428,7 +428,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.CICC,
           playerName: 'Quốc Anh', //#13
@@ -436,7 +436,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1997
         }, {
           teamName: Teams.CICC,
           playerName: 'Thiện Trần', //#14
@@ -444,7 +444,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1995
         }, {
           teamName: Teams.CICC,
           playerName: 'Toàn Lê', //#15
@@ -452,7 +452,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.CICC,
           playerName: 'Cường Phạm', //#16
@@ -460,7 +460,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1997
         }, {
           teamName: Teams.CICC,
           playerName: 'Văn Hoá', //#17
@@ -468,7 +468,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1998
         }, {
           teamName: Teams.CICC,
           playerName: 'Thắng Phạm', //#18
@@ -476,7 +476,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.CICC,
           playerName: 'Hòa Phạm', //#19
@@ -484,7 +484,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }
       ].sort((a, b) => {
         return a.playerNumber - b.playerNumber;
@@ -503,7 +503,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1992
         },
         {
           teamName: Teams.CTC,
@@ -512,7 +512,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1988
         },
         {
           teamName: Teams.CTC,
@@ -521,7 +521,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1999
         },
         {
           teamName: Teams.CTC,
@@ -530,7 +530,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2001
         },
         {
           teamName: Teams.CTC,
@@ -539,7 +539,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2002
         },
         {
           teamName: Teams.CTC,
@@ -548,7 +548,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1999
         },
         {
           teamName: Teams.CTC,
@@ -557,7 +557,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2002
         },
         {
           teamName: Teams.CTC,
@@ -566,7 +566,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1997
         },
         {
           teamName: Teams.CTC,
@@ -575,7 +575,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1998
         },
         {
           teamName: Teams.CTC,
@@ -584,7 +584,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         },
         {
           teamName: Teams.CTC,
@@ -593,7 +593,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2002
         },
         {
           teamName: Teams.CTC,
@@ -602,7 +602,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2003
         },
         {
           teamName: Teams.CTC,
@@ -611,7 +611,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1999
         },
         {
           teamName: Teams.CTC,
@@ -620,7 +620,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1999
         },
         {
           teamName: Teams.CTC,
@@ -629,7 +629,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1998
         },
         {
           teamName: Teams.CTC,
@@ -638,7 +638,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1996
         },
         {
           teamName: Teams.CTC,
@@ -647,7 +647,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1999
         },
         {
           teamName: Teams.CTC,
@@ -656,7 +656,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2003
         },
         {
           teamName: Teams.CTC,
@@ -665,7 +665,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1998
         },
         {
           teamName: Teams.CTC,
@@ -674,7 +674,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1992
         }
       ].sort((a, b) => {
         return a.playerNumber - b.playerNumber;
@@ -693,7 +693,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1986
         }, {
           teamName: Teams.FCKingston,
           playerName: 'PHẠM HOÀNG NAM',//#2
@@ -701,7 +701,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2001
         }, {
           teamName: Teams.FCKingston,
           playerName: 'NGUYỄN TRƯỜNG SƠN',//#3
@@ -709,7 +709,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1990
         }, {
           teamName: Teams.FCKingston,
           playerName: 'NGUYỄN QUỐC CHUNG',//#4
@@ -717,7 +717,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.FCKingston,
           playerName: 'ĐOÀN QUỐC VƯƠNG',//#5
@@ -725,7 +725,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2003
         }, {
           teamName: Teams.FCKingston,
           playerName: 'VŨ HOÀNG ANH',//#6
@@ -733,7 +733,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2001
         }, {
           teamName: Teams.FCKingston,
           playerName: 'ĐỒNG TUẤN DƯƠNG',//#7
@@ -741,7 +741,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2004
         }, {
           teamName: Teams.FCKingston,
           playerName: 'SÁNG LÊ',//#8
@@ -749,7 +749,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1999
         }, {
           teamName: Teams.FCKingston,
           playerName: 'THÁI ZUBI',//#9
@@ -757,7 +757,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1999
         }, {
           teamName: Teams.FCKingston,
           playerName: 'ĐẬU THẾ DIỆU',//#10
@@ -765,7 +765,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1999
         }, {
           teamName: Teams.FCKingston,
           playerName: 'JACKSON BUI',//#11
@@ -773,7 +773,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2004
         }, {
           teamName: Teams.FCKingston,
           playerName: 'NGUYỄN QUỐC HÙNG',//#12
@@ -781,7 +781,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1999
         }
       ].sort((a, b) => {
         return a.playerNumber - b.playerNumber;
@@ -800,7 +800,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.KWFC,
           playerName: 'Tín Trương', // #2
@@ -808,7 +808,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.KWFC,
           playerName: 'Thắng Đào', // #3
@@ -816,7 +816,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.KWFC,
           playerName: 'Lê Văn Luân', // #4
@@ -824,7 +824,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.KWFC,
           playerName: 'Nguyễn Thế Cường', // #5
@@ -832,7 +832,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.KWFC,
           playerName: 'Nguyễn Trần Đức Huy', // #6
@@ -840,7 +840,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.KWFC,
           playerName: 'Nguyễn Cao Quý', // #7
@@ -848,7 +848,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.KWFC,
           playerName: 'Nguyễn Huỳnh Khôi Nguyên', // #8
@@ -856,7 +856,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.KWFC,
           playerName: 'Ngô Đức Nguyên Khang', // #9
@@ -864,7 +864,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.KWFC,
           playerName: 'Võ Trí Tài', // #10
@@ -872,7 +872,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.KWFC,
           playerName: 'Trần Quốc Anh', // #11
@@ -880,7 +880,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.KWFC,
           playerName: 'Trần Viết Bảo', // #12
@@ -888,7 +888,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.KWFC,
           playerName: 'Nhân Võ', // #13
@@ -896,7 +896,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.KWFC,
           playerName: 'Nguyễn Tiến', // #14
@@ -904,7 +904,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.KWFC,
           playerName: 'Văn Công Lãm', // #15
@@ -912,7 +912,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.KWFC,
           playerName: 'Vũ Đức Thông', // #16
@@ -920,7 +920,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.KWFC,
           playerName: 'Dương Gia Kỳ', // #17
@@ -928,7 +928,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.KWFC,
           playerName: 'Trần Phan Thông', // #18
@@ -936,7 +936,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.KWFC,
           playerName: 'Trung Nguyên', // #19
@@ -944,7 +944,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }
       ].sort((a, b) => {
         return a.playerNumber - b.playerNumber;
@@ -963,7 +963,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1999
         }, {
           teamName: Teams.BFC,
           playerName: 'Lê Thế Đại Phong',  //#2
@@ -971,7 +971,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1997
         }, {
           teamName: Teams.BFC,
           playerName: 'Lưu Chí Đức',  //#3
@@ -979,7 +979,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2001
         }, {
           teamName: Teams.BFC,
           playerName: 'Trần Ngọc Hoàng Quân',  //#4
@@ -987,7 +987,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1995
         }, {
           teamName: Teams.BFC,
           playerName: 'Tâm Nguyễn',  //#5
@@ -995,7 +995,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1993
         }, {
           teamName: Teams.BFC,
           playerName: 'Thắng Đỗ',  //#6
@@ -1003,7 +1003,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1985
         }, {
           teamName: Teams.BFC,
           playerName: 'Thế Hùng',  //#7
@@ -1011,7 +1011,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2003
         }, {
           teamName: Teams.BFC,
           playerName: 'Hiễu Võ',  //#8
@@ -1019,7 +1019,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.BFC,
           playerName: 'Đức Vũ',  //#9
@@ -1027,7 +1027,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1992
         }, {
           teamName: Teams.BFC,
           playerName: 'Đức Anh Nguyễn',  //#10
@@ -1035,7 +1035,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2003
         }, {
           teamName: Teams.BFC,
           playerName: 'Kyan Nguyễn',  //#11
@@ -1043,7 +1043,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2001
         }, {
           teamName: Teams.BFC,
           playerName: 'Cubon Nguyễn',  //#12
@@ -1051,7 +1051,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.BFC,
           playerName: 'Hồ Minh Trúc',  //#13
@@ -1059,7 +1059,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2003
         }, {
           teamName: Teams.BFC,
           playerName: 'Việt Trần',  //#14
@@ -1067,7 +1067,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1994
         }, {
           teamName: Teams.BFC,
           playerName: 'Nguyễn Công Khang',  //#15
@@ -1075,7 +1075,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2001
         }, {
           teamName: Teams.BFC,
           playerName: 'Nathan Gawargy',  //#16
@@ -1083,7 +1083,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2001
         }, {
           teamName: Teams.BFC,
           playerName: 'Hoàng Trương',  //#17
@@ -1091,7 +1091,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1993
         }, {
           teamName: Teams.BFC,
           playerName: 'Nguyễn Xuân Đính',  //#18
@@ -1099,7 +1099,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2002
         }, {
           teamName: Teams.BFC,
           playerName: 'Hoàng Võ',  //#19
@@ -1107,7 +1107,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 1996
         }
       ].sort((a, b) => {
         return a.playerNumber - b.playerNumber;
@@ -1126,7 +1126,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.YGOfVN,
           playerName: 'Ngo, Viet Anh', //#2
@@ -1134,7 +1134,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.YGOfVN,
           playerName: 'Mai, Thanh Trinh', //#3
@@ -1142,7 +1142,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.YGOfVN,
           playerName: 'Nguyen, Duc Huy', //#4
@@ -1150,7 +1150,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.YGOfVN,
           playerName: 'Tran, Van Thang', //#5
@@ -1158,7 +1158,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.YGOfVN,
           playerName: 'Pham, Ngoc Thach', //#6
@@ -1166,7 +1166,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.YGOfVN,
           playerName: 'Nguyen, Tien Linh', //#7
@@ -1174,7 +1174,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.YGOfVN,
           playerName: 'Nguyen, Van Long', //#8
@@ -1182,7 +1182,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.YGOfVN,
           playerName: 'Tran, Nhat Tan', //#9
@@ -1190,7 +1190,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.YGOfVN,
           playerName: 'Trinh, Van Manh', //#10
@@ -1198,7 +1198,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.YGOfVN,
           playerName: 'Ho, Huu Tai', //#11
@@ -1206,7 +1206,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.YGOfVN,
           playerName: 'Ton, That Truong', //#12
@@ -1214,7 +1214,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.YGOfVN,
           playerName: 'Nguyen, Quoc Tri', //#13
@@ -1222,7 +1222,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.YGOfVN,
           playerName: 'Tín', //#14
@@ -1230,7 +1230,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.YGOfVN,
           playerName: 'Dau, Van Quyet Thang', //#15
@@ -1238,7 +1238,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.YGOfVN,
           playerName: 'Phung, Nam Tien', //#16
@@ -1246,7 +1246,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.YGOfVN,
           playerName: 'Phung, Minh Hai', //#17
@@ -1254,7 +1254,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.YGOfVN,
           playerName: 'Nguyen, Cong Anh Duy', //#18
@@ -1262,7 +1262,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.YGOfVN,
           playerName: 'Long', //#19
@@ -1270,7 +1270,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }
       ].sort((a, b) => {
         return a.playerNumber - b.playerNumber;
@@ -1289,7 +1289,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.FCAE,
           playerName: 'Nguyễn Minh Tấn', //#2
@@ -1297,7 +1297,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.FCAE,
           playerName: 'Phạm Văn Khiêm', //#3
@@ -1305,7 +1305,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.FCAE,
           playerName: 'Nguyễn Chí Quốc', //#4
@@ -1313,7 +1313,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.FCAE,
           playerName: 'Nguyễn Minh Tuấn', //#5
@@ -1321,7 +1321,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.FCAE,
           playerName: 'Nguyễn Hải Nam', //#6
@@ -1329,7 +1329,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.FCAE,
           playerName: 'Phan Văn Thủy', //#7
@@ -1337,7 +1337,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.FCAE,
           playerName: 'Nguyễn Minh Trung', //#8
@@ -1345,7 +1345,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.FCAE,
           playerName: 'Nguyễn Tuấn Anh', //#9
@@ -1353,7 +1353,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.FCAE,
           playerName: 'Nguyễn Huy Công', //#10
@@ -1361,7 +1361,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.FCAE,
           playerName: 'Nguyễn Ngọc Đức', //#11
@@ -1369,7 +1369,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.FCAE,
           playerName: 'Trần Minh Hiếu', //#12
@@ -1377,7 +1377,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.FCAE,
           playerName: 'Tăng Đình Võ', //#13
@@ -1385,7 +1385,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.FCAE,
           playerName: 'Trần Ngọc Anh', //#14
@@ -1393,7 +1393,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.FCAE,
           playerName: 'Trần Văn Quân', //#15
@@ -1401,7 +1401,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.FCAE,
           playerName: 'Nguyễn Anh Khoa', //#16
@@ -1409,7 +1409,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.FCAE,
           playerName: 'Nguyễn Văn Hùng', //#17
@@ -1417,7 +1417,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }
       ].sort((a, b) => {
         return a.playerNumber - b.playerNumber;
@@ -1436,7 +1436,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.LankFC,
           playerName: 'Duy Hồ', //#2
@@ -1444,7 +1444,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.LankFC,
           playerName: 'Tùng Vũ', //#3
@@ -1452,7 +1452,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.LankFC,
           playerName: 'Phương Hồ', //#4
@@ -1460,7 +1460,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.LankFC,
           playerName: 'Linh Mai', //#5
@@ -1468,7 +1468,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.LankFC,
           playerName: 'An Hoàng', //#6
@@ -1476,7 +1476,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.LankFC,
           playerName: 'Huy Than', //#7
@@ -1484,7 +1484,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.LankFC,
           playerName: 'Nam Phạm', //#8
@@ -1492,7 +1492,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.LankFC,
           playerName: 'Chiều Phạm', //#9
@@ -1500,7 +1500,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.LankFC,
           playerName: 'Quang Minh', //#10
@@ -1508,7 +1508,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.LankFC,
           playerName: 'Hoàng Anh', //#11
@@ -1516,7 +1516,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }
       ].sort((a, b) => {
         return a.playerNumber - b.playerNumber;
@@ -1535,7 +1535,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco1,
           playerName: 'Hoàng Minh', //#2
@@ -1543,7 +1543,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco1,
           playerName: 'Bùi Hiển', //#3
@@ -1551,7 +1551,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco1,
           playerName: 'Lê Việt Hưng', //#4
@@ -1559,7 +1559,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco1,
           playerName: 'Nguyen Sy Quy', //#5
@@ -1567,7 +1567,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco1,
           playerName: 'Pham Minh Quang', //#6
@@ -1575,7 +1575,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco1,
           playerName: 'Dung Nguyen', //#7
@@ -1583,7 +1583,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco1,
           playerName: 'Trương Tiến Dũng', //#8
@@ -1591,7 +1591,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco1,
           playerName: 'Hoang Bao Pham', //#9
@@ -1599,7 +1599,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco1,
           playerName: 'Tú Quách', //#10
@@ -1607,7 +1607,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco1,
           playerName: 'Trịnh Nhật Huy', //#11
@@ -1615,7 +1615,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco1,
           playerName: 'Esteban Hoàng', //#12
@@ -1623,7 +1623,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco1,
           playerName: 'Phùng Anh Minh', //#13
@@ -1631,7 +1631,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco1,
           playerName: 'Nguyễn Thanh Đức', //#14
@@ -1639,7 +1639,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco1,
           playerName: 'Tuấn Trần', //#15
@@ -1647,7 +1647,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco1,
           playerName: 'Nam Nguyen', //#16
@@ -1655,7 +1655,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco1,
           playerName: 'Trung Đỗ', //#17
@@ -1663,7 +1663,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco1,
           playerName: 'Vu Van Hung', //#18
@@ -1671,7 +1671,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco1,
           playerName: 'Huynh Minh Thanh', //#19
@@ -1679,7 +1679,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }
       ].sort((a, b) => {
         return a.playerNumber - b.playerNumber;
@@ -1698,7 +1698,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco2,
           playerName: 'Duong Binh Minh', //#2
@@ -1706,7 +1706,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco2,
           playerName: 'Tuan Hue', //#3
@@ -1714,7 +1714,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco2,
           playerName: 'Phước Thái', //#4
@@ -1722,7 +1722,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco2,
           playerName: 'Đặng Hồng Khanh', //#5
@@ -1730,7 +1730,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco2,
           playerName: 'Đào Ngọc Hà', //#6
@@ -1738,7 +1738,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco2,
           playerName: 'Lê Huy Bình', //#7
@@ -1746,7 +1746,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco2,
           playerName: 'KHUONG Kim Hung', //#8
@@ -1754,7 +1754,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco2,
           playerName: 'Nguyễn Công Long', //#9
@@ -1762,7 +1762,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco2,
           playerName: 'Ton Viet Hung', //#10
@@ -1770,7 +1770,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco2,
           playerName: 'Nguyen Minh Triet', //#11
@@ -1778,7 +1778,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco2,
           playerName: 'Ho Cong Tai', //#12
@@ -1786,7 +1786,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco2,
           playerName: 'Huỳnh Duy Khoa', //#13
@@ -1794,7 +1794,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco2,
           playerName: 'Nguyen Dac Anh Son', //#14
@@ -1802,7 +1802,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco2,
           playerName: 'Phạm Minh Nhã', //#15
@@ -1810,7 +1810,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco2,
           playerName: 'Giang Nam', //#16
@@ -1818,7 +1818,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco2,
           playerName: 'Nam Vu', //#17
@@ -1826,7 +1826,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco2,
           playerName: 'Đình Quý', //#18
@@ -1834,7 +1834,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco2,
           playerName: 'Hoang', //#19
@@ -1842,7 +1842,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco2,
           playerName: 'Nguyễn Hữu Dũng', //#20
@@ -1850,7 +1850,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.Stechco2,
           playerName: 'Kieu Cuong', //#21
@@ -1858,7 +1858,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }
       ].sort((a, b) => {
         return a.playerNumber - b.playerNumber;
@@ -1877,7 +1877,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.FC3Mien,
           playerName: 'Hanh Van', //#2
@@ -1885,7 +1885,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.FC3Mien,
           playerName: 'Truong Pham', //#3
@@ -1893,7 +1893,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.FC3Mien,
           playerName: 'Tung Uong', //#4
@@ -1901,7 +1901,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.FC3Mien,
           playerName: 'Vy To', //#5
@@ -1909,7 +1909,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.FC3Mien,
           playerName: 'Tai Tran', //#6
@@ -1917,7 +1917,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.FC3Mien,
           playerName: 'Quang Pham', //#7
@@ -1925,7 +1925,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.FC3Mien,
           playerName: 'Bao Tran', //#8
@@ -1933,7 +1933,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.FC3Mien,
           playerName: 'Khoi Pham', //#9
@@ -1941,7 +1941,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.FC3Mien,
           playerName: 'Loc Tran', //#10
@@ -1949,7 +1949,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.FC3Mien,
           playerName: 'Kien Nguyen', //#11
@@ -1957,7 +1957,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.FC3Mien,
           playerName: 'Phu Nguyen', //#12
@@ -1965,7 +1965,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.FC3Mien,
           playerName: 'Kiet Nguyen', //#13
@@ -1973,7 +1973,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.FC3Mien,
           playerName: 'Luat Nguyen', //#14
@@ -1981,7 +1981,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.FC3Mien,
           playerName: 'Cuong Nguyen', //#15
@@ -1989,7 +1989,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.FC3Mien,
           playerName: 'Phuoc Pham', //#16
@@ -1997,7 +1997,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.FC3Mien,
           playerName: 'Thao Tran', //#17
@@ -2005,7 +2005,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.FC3Mien,
           playerName: 'Hung Phan', //#18
@@ -2013,7 +2013,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.FC3Mien,
           playerName: 'Ha Nguyen', //#19
@@ -2021,7 +2021,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.FC3Mien,
           playerName: 'Kevin Phan', //#20
@@ -2029,7 +2029,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.FC3Mien,
           playerName: 'Cuong Phan', //#21
@@ -2037,7 +2037,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }
       ].sort((a, b) => {
         return a.playerNumber - b.playerNumber;
@@ -2056,7 +2056,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.VMU,
           playerName: 'Trần Tuấn Hào', //#2
@@ -2064,7 +2064,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.VMU,
           playerName: 'Trần Trung Tín', //#3
@@ -2072,7 +2072,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.VMU,
           playerName: 'Nguyễn Thái Sơn', //#4
@@ -2080,7 +2080,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.VMU,
           playerName: 'Nguyễn Vũ Thắng', //#5
@@ -2088,7 +2088,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.VMU,
           playerName: 'Hồ Trung Kiên', //#6
@@ -2096,7 +2096,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.VMU,
           playerName: 'Trương Minh Lương', //#7
@@ -2104,7 +2104,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.VMU,
           playerName: 'Nguyễn Công Hoan', //#8
@@ -2112,7 +2112,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.VMU,
           playerName: 'Lê An Vinh', //#9
@@ -2120,7 +2120,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.VMU,
           playerName: 'Văn Nhật Nguyên', //#10
@@ -2128,7 +2128,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.VMU,
           playerName: 'Đào Duy Khánh', //#11
@@ -2136,7 +2136,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.VMU,
           playerName: 'Trương Minh Đạo', //#12
@@ -2144,7 +2144,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.VMU,
           playerName: 'Lê Bảo Đăng', //#13
@@ -2152,7 +2152,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.VMU,
           playerName: 'Trần Vinh Hào', //#14
@@ -2160,7 +2160,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.VMU,
           playerName: 'Đỗ Trần Minh Quân', //#15
@@ -2168,7 +2168,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.VMU,
           playerName: 'Phạm Thành Phát', //#16
@@ -2176,7 +2176,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.VMU,
           playerName: 'Nguyễn Anh Kiệt', //#17
@@ -2184,7 +2184,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.VMU,
           playerName: 'Hồ Lê Sơn Giang', //#18
@@ -2192,7 +2192,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.VMU,
           playerName: 'Nguyễn Thanh Duẫn', //#19
@@ -2200,7 +2200,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.VMU,
           playerName: 'Nguyễn Trần Tim', //#20
@@ -2208,7 +2208,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.VMU,
           playerName: 'Steven Hà', //#21
@@ -2216,7 +2216,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.VMU,
           playerName: 'Nguyễn Việt Nam', //#22
@@ -2224,7 +2224,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.VMU,
           playerName: 'Đoàn Thanh Tùng', //#23
@@ -2232,7 +2232,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.VMU,
           playerName: 'Nguyễn Ngọc Duy', //#24
@@ -2240,7 +2240,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.VMU,
           playerName: 'Alexandre Đặng Minh Nhân', //#25
@@ -2248,7 +2248,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }
       ].sort((a, b) => {
         return a.playerNumber - b.playerNumber;
@@ -2267,7 +2267,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.SFC,
           playerName: 'Nguyễn Thanh Phước', //#2
@@ -2275,7 +2275,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.SFC,
           playerName: 'Đức Nguyễn', //#3
@@ -2283,7 +2283,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.SFC,
           playerName: 'Diên Hồ', //#4
@@ -2291,7 +2291,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.SFC,
           playerName: 'Nguyễn Mạnh Tùng', //#5
@@ -2299,7 +2299,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.SFC,
           playerName: 'Nguyễn Thanh Hùng', //#6
@@ -2307,7 +2307,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.SFC,
           playerName: 'Nguyễn Bảo Châu', //#7
@@ -2315,7 +2315,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.SFC,
           playerName: 'Tường Nam', //#8
@@ -2323,7 +2323,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.SFC,
           playerName: 'Tường Minh', //#9
@@ -2331,7 +2331,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.SFC,
           playerName: 'Nguyễn Tiến Thành', //#10
@@ -2339,7 +2339,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.SFC,
           playerName: 'Nguyễn Vũ Thắng', //#11
@@ -2347,7 +2347,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.SFC,
           playerName: 'Đinh Hoàng Lân', //#12
@@ -2355,7 +2355,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.SFC,
           playerName: 'Phạm Anh Tuấn', //#13
@@ -2363,7 +2363,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.SFC,
           playerName: 'Trí Nguyễn', //#14
@@ -2371,7 +2371,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.SFC,
           playerName: 'Đặng Văn Bình', //#15
@@ -2379,7 +2379,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }
       ].sort((a, b) => {
         return a.playerNumber - b.playerNumber;
@@ -2398,7 +2398,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.RBJunior,
           playerName: 'Vo Hoang Khuong', //#2
@@ -2406,7 +2406,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.RBJunior,
           playerName: 'Ngo ba tuyen', //#3
@@ -2414,7 +2414,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.RBJunior,
           playerName: 'Ngo tien dat', //#4
@@ -2422,7 +2422,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.RBJunior,
           playerName: 'Nguyen Truong Nguyen', //#5
@@ -2430,7 +2430,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.RBJunior,
           playerName: 'Nguyen hoang quoc anh', //#6
@@ -2438,7 +2438,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.RBJunior,
           playerName: 'Vo Duong Huy', //#7
@@ -2446,7 +2446,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.RBJunior,
           playerName: 'Duong Quang Huy', //#8
@@ -2454,7 +2454,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.RBJunior,
           playerName: 'Pham Hoang Anh', //#9
@@ -2462,7 +2462,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.RBJunior,
           playerName: 'Minh Hoang', //#10
@@ -2470,7 +2470,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.RBJunior,
           playerName: 'Dung nho', //#11
@@ -2478,7 +2478,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.RBJunior,
           playerName: 'Nguyen ngoc anh huy', //#12
@@ -2486,7 +2486,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.RBJunior,
           playerName: 'Bui phan tung', //#13
@@ -2494,7 +2494,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.RBJunior,
           playerName: 'Huy Hoang', //#14
@@ -2502,7 +2502,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.RBJunior,
           playerName: 'Steven Hoang', //#15
@@ -2510,7 +2510,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0
+          redCards: 0, yearOfBirth: 2000
         }
       ].sort((a, b) => {
         return a.playerNumber - b.playerNumber;

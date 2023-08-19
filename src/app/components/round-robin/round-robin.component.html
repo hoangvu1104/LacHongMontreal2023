@@ -3,6 +3,7 @@
     <tr>
       <th>Thời gian</th>
       <th>Sân</th>
+      <th>Code</th>
       <th></th>
       <th>Home</th>
       <!-- <th></th>
@@ -18,6 +19,7 @@
       <tr [class.border-bottom]="(i + 1) % 4 !== 0">
         <td *ngIf="(i + 1) % 4 === 1" rowspan="4">{{ division.time }}</td>
         <td>{{ division.field }}</td>
+        <td>{{ division.code }}</td>
         <td>
           <div class="team-info">
             <img [src]="commonFunctions.getTeamImageStyle(division.teamA)" alt="Team A" class="team-image">

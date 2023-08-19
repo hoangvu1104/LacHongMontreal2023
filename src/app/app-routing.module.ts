@@ -4,13 +4,13 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'result',
     pathMatch: 'full'
   },
-  {
-    path: 'home',
-    loadChildren: () => import('./pages/home/home.module').then(m => m.HomePageModule)
-  },
+  // {
+  //   path: 'home',
+  //   loadChildren: () => import('./pages/home/home.module').then(m => m.HomePageModule)
+  // },
   {
     path: 'result',
     loadChildren: () => import('./pages/result/result.module').then(m => m.ResultPageModule)
@@ -45,7 +45,7 @@ const routes: Routes = [
   },
   {
     path: 'teams-list',
-    loadChildren: () => import('./pages/teams-list/teams-list.module').then( m => m.TeamsListPageModule)
+    loadChildren: () => import('./pages/teams-list/teams-list.module').then(m => m.TeamsListPageModule)
   }
 ];
 
