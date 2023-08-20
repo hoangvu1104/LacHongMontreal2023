@@ -12,6 +12,7 @@
       <th></th>
       <th>Away</th>
       <th></th>
+      <th>Ref</th>
     </tr>
   </thead>
   <tbody>
@@ -36,6 +37,7 @@
             <img [src]="commonFunctions.getTeamImageStyle(division.teamB)" alt="Team B" class="team-image">
           </div>
         </td>
+        <td>{{ division.ref }}</td>
       </tr>
       <tr *ngIf="((i + 1) % 4 === 0) && (i+1) !== divisions.length && i !== 11" class="spacer-row">
         <td colspan="9">Giải lao 15 phút</td>

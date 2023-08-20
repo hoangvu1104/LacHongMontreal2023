@@ -1,5 +1,6 @@
 export interface Division {
   code: string;
+  ref?: string;
   time: string;
   field: string;
   teamA: string;

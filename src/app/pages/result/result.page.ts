@@ -38,153 +38,153 @@ export class ResultPage implements OnInit {
     this.divisions = [
       //Round 1 - AB
       {
-        code: '',
+        code: 'GS01',
         time: this.time1, field: Fields.Field1,
         teamA: this.generateTeamName(groupA[0]), teamB: this.generateTeamName(groupA[1]),
-        resultA: 0, resultB: 0
+        resultA: 0, resultB: 0, ref: 'Walid'
       },
       {
-        code: '',
+        code: 'GS02',
         time: this.time1, field: Fields.Field2,
         teamA: this.generateTeamName(groupA[2]), teamB: this.generateTeamName(groupA[3]),
-        resultA: 0, resultB: 0
+        resultA: 0, resultB: 0, ref: 'Fakhri'
       },
       {
-        code: '',
+        code: 'GS03',
         time: this.time1, field: Fields.Field3,
         teamA: this.generateTeamName(groupB[0]), teamB: this.generateTeamName(groupB[1]),
-        resultA: 0, resultB: 0
+        resultA: 0, resultB: 0, ref: 'Adam'
       },
       {
-        code: '',
+        code: 'GS04',
         time: this.time1, field: Fields.Field4,
         teamA: this.generateTeamName(groupB[2]), teamB: this.generateTeamName(groupB[3]),
-        resultA: 0, resultB: 0
+        resultA: 0, resultB: 0, ref: 'Rami'
       },
       //Round 1 - CD
       {
-        code: '',
+        code: 'GS05',
         time: this.time2, field: Fields.Field1,
         teamA: this.generateTeamName(groupC[0]), teamB: this.generateTeamName(groupC[1]),
-        resultA: 0, resultB: 0
+        resultA: 0, resultB: 0, ref: 'Walid'
       },
       {
-        code: '',
+        code: 'GS06',
         time: this.time2, field: Fields.Field2,
         teamA: this.generateTeamName(groupC[2]), teamB: this.generateTeamName(groupC[3]),
-        resultA: 0, resultB: 0
+        resultA: 0, resultB: 0, ref: 'Fakhri'
       },
       {
-        code: '',
+        code: 'GS07',
         time: this.time2, field: Fields.Field3,
         teamA: this.generateTeamName(groupD[0]), teamB: this.generateTeamName(groupD[1]),
-        resultA: 0, resultB: 0
+        resultA: 0, resultB: 0, ref: 'Adam'
       },
       {
-        code: '',
+        code: 'GS08',
         time: this.time2, field: Fields.Field4,
         teamA: this.generateTeamName(groupD[2]), teamB: this.generateTeamName(groupD[3]),
-        resultA: 0, resultB: 0
+        resultA: 0, resultB: 0, ref: 'Rami'
       },
       //Round 2 - AB
       {
-        code: '',
+        code: 'GS09',
         time: this.time3, field: Fields.Field1,
         teamA: this.generateTeamName(groupA[0]), teamB: this.generateTeamName(groupA[2]),
-        resultA: 0, resultB: 0
+        resultA: 0, resultB: 0, ref: 'Walid'
       },
       {
-        code: '',
+        code: 'GS10',
         time: this.time3, field: Fields.Field2,
         teamA: this.generateTeamName(groupA[1]), teamB: this.generateTeamName(groupA[3]),
-        resultA: 0, resultB: 0
+        resultA: 0, resultB: 0, ref: 'Fakhri'
       },
       {
-        code: '',
+        code: 'GS11',
         time: this.time3, field: Fields.Field3,
         teamA: this.generateTeamName(groupB[0]), teamB: this.generateTeamName(groupB[2]),
-        resultA: 0, resultB: 0
+        resultA: 0, resultB: 0, ref: 'Adam'
       },
       {
-        code: '',
+        code: 'GS12',
         time: this.time3, field: Fields.Field4,
         teamA: this.generateTeamName(groupB[1]), teamB: this.generateTeamName(groupB[3]),
-        resultA: 0, resultB: 0
+        resultA: 0, resultB: 0, ref: 'Rami'
       },
       //Round 2 - CD
       {
-        code: '',
+        code: 'GS13',
         time: this.time4, field: Fields.Field1,
         teamA: this.generateTeamName(groupC[0]), teamB: this.generateTeamName(groupC[2]),
-        resultA: 0, resultB: 0
+        resultA: 0, resultB: 0, ref: 'Rami'
       },
       {
-        code: '',
+        code: 'GS14',
         time: this.time4, field: Fields.Field2,
         teamA: this.generateTeamName(groupC[1]), teamB: this.generateTeamName(groupC[3]),
-        resultA: 0, resultB: 0
+        resultA: 0, resultB: 0, ref: 'Adam'
       },
       {
-        code: '',
+        code: 'GS15',
         time: this.time4, field: Fields.Field3,
         teamA: this.generateTeamName(groupD[0]), teamB: this.generateTeamName(groupD[2]),
-        resultA: 0, resultB: 0
+        resultA: 0, resultB: 0, ref: 'Fakhri'
       },
       {
-        code: '',
+        code: 'GS16',
         time: this.time4, field: Fields.Field4,
         teamA: this.generateTeamName(groupD[1]), teamB: this.generateTeamName(groupD[3]),
-        resultA: 0, resultB: 0
+        resultA: 0, resultB: 0, ref: 'Walid'
       },
       //Round 3 - AB
       {
-        code: '',
+        code: 'GS17',
         time: this.time5, field: Fields.Field1,
         teamA: this.generateTeamName(groupA[0]), teamB: this.generateTeamName(groupA[3]),
-        resultA: 0, resultB: 0
+        resultA: 0, resultB: 0, ref: 'Rami'
       },
       {
-        code: '',
+        code: 'GS18',
         time: this.time5, field: Fields.Field2,
         teamA: this.generateTeamName(groupA[1]), teamB: this.generateTeamName(groupA[2]),
-        resultA: 0, resultB: 0
+        resultA: 0, resultB: 0, ref: 'Adam'
       },
       {
-        code: '',
+        code: 'GS19',
         time: this.time5, field: Fields.Field3,
         teamA: this.generateTeamName(groupB[0]), teamB: this.generateTeamName(groupB[3]),
-        resultA: 0, resultB: 0
+        resultA: 0, resultB: 0, ref: 'Fakhri'
       },
       {
-        code: '',
+        code: 'GS20',
         time: this.time5, field: Fields.Field4,
         teamA: this.generateTeamName(groupB[1]), teamB: this.generateTeamName(groupB[2]),
-        resultA: 0, resultB: 0
+        resultA: 0, resultB: 0, ref: 'Walid'
       },
       //Round 3 - CD
       {
-        code: '',
+        code: 'GS21',
         time: this.time6, field: Fields.Field1,
         teamA: this.generateTeamName(groupC[0]), teamB: this.generateTeamName(groupC[3]),
-        resultA: 0, resultB: 0
+        resultA: 0, resultB: 0, ref: 'Rami'
       },
       {
-        code: '',
+        code: 'GS22',
         time: this.time6, field: Fields.Field2,
         teamA: this.generateTeamName(groupC[1]), teamB: this.generateTeamName(groupC[2]),
-        resultA: 0, resultB: 0
+        resultA: 0, resultB: 0, ref: 'Adam'
       },
       {
-        code: '',
+        code: 'GS23',
         time: this.time6, field: Fields.Field3,
         teamA: this.generateTeamName(groupD[0]), teamB: this.generateTeamName(groupD[3]),
-        resultA: 0, resultB: 0
+        resultA: 0, resultB: 0, ref: 'Fakhri'
       },
       {
-        code: '',
+        code: 'GS24',
         time: this.time6, field: Fields.Field4,
         teamA: this.generateTeamName(groupD[1]), teamB: this.generateTeamName(groupD[2]),
-        resultA: 0, resultB: 0
+        resultA: 0, resultB: 0, ref: 'Walid'
       }
       // Add more divisions as needed
     ];
