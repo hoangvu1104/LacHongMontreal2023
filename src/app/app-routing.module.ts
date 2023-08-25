@@ -46,6 +46,10 @@ const routes: Routes = [
   {
     path: 'teams-list',
     loadChildren: () => import('./pages/teams-list/teams-list.module').then(m => m.TeamsListPageModule)
+  },
+  {
+    path: 'rules-info',
+    loadChildren: () => import('./pages/rules-info/rules-info.module').then( m => m.RulesInfoPageModule)
   }
 ];
 

@@ -17,30 +17,32 @@ import { TeamInfoPage } from './pages/team-info/team-info.page';
 import { TablesPage } from './pages/tables/tables.page';
 import { TableResultPage } from './pages/table-result/table-result.page';
 import { ServiceWorkerModule } from '@angular/service-worker';
+import { RulesInfoPage } from './pages/rules-info/rules-info.page';
 
 
 
 @NgModule({
   declarations: [
-    AppComponent, 
+    AppComponent,
     RoundRobinComponent,
     ToolbarHeaderComponent,
     MenuComponent,
     PlayoffPage,
     PlayoffnormalPage,
-    BeginPage,    
+    BeginPage,
     ResultPage,
     TeamInfoPage,
     TablesPage,
     TableResultPage,
+    RulesInfoPage,
     HomePage],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, ServiceWorkerModule.register('ngsw-worker.js', {
-  enabled: !isDevMode(),
-  // Register the ServiceWorker as soon as the application is stable
-  // or after 30 seconds (whichever comes first).
-  registrationStrategy: 'registerWhenStable:30000'
-})],
+    enabled: !isDevMode(),
+    // Register the ServiceWorker as soon as the application is stable
+    // or after 30 seconds (whichever comes first).
+    registrationStrategy: 'registerWhenStable:30000'
+  })],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }, NavParams],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule { }
