@@ -898,7 +898,7 @@ export class DataInfo {
         {
           teamName: Teams.BFC,
           playerName: 'Nguyễn Đức Bảo Toàn (C)',  //#1
-          playerNumber: 0,
+          playerNumber: 8,
           goals: 0,
           assists: 0,
           yellowCards: 0,
@@ -906,7 +906,7 @@ export class DataInfo {
         }, {
           teamName: Teams.BFC,
           playerName: 'Lê Thế Đại Phong',  //#2
-          playerNumber: 0,
+          playerNumber: 11,
           goals: 0,
           assists: 0,
           yellowCards: 0,
@@ -914,7 +914,7 @@ export class DataInfo {
         }, {
           teamName: Teams.BFC,
           playerName: 'Lưu Chí Đức',  //#3
-          playerNumber: 0,
+          playerNumber: 16,
           goals: 0,
           assists: 0,
           yellowCards: 0,
@@ -922,7 +922,7 @@ export class DataInfo {
         }, {
           teamName: Teams.BFC,
           playerName: 'Trần Ngọc Hoàng Quân',  //#4
-          playerNumber: 0,
+          playerNumber: 14,
           goals: 0,
           assists: 0,
           yellowCards: 0,
@@ -930,7 +930,7 @@ export class DataInfo {
         }, {
           teamName: Teams.BFC,
           playerName: 'Tâm Nguyễn',  //#5
-          playerNumber: 0,
+          playerNumber: 17,
           goals: 0,
           assists: 0,
           yellowCards: 0,
@@ -938,7 +938,7 @@ export class DataInfo {
         }, {
           teamName: Teams.BFC,
           playerName: 'Thắng Đỗ',  //#6
-          playerNumber: 0,
+          playerNumber: 21,
           goals: 0,
           assists: 0,
           yellowCards: 0,
@@ -946,7 +946,7 @@ export class DataInfo {
         }, {
           teamName: Teams.BFC,
           playerName: 'Thế Hùng',  //#7
-          playerNumber: 0,
+          playerNumber: 19,
           goals: 0,
           assists: 0,
           yellowCards: 0,
@@ -954,7 +954,7 @@ export class DataInfo {
         }, {
           teamName: Teams.BFC,
           playerName: 'Hiễu Võ',  //#8
-          playerNumber: 0,
+          playerNumber: 12,
           goals: 0,
           assists: 0,
           yellowCards: 0,
@@ -962,7 +962,7 @@ export class DataInfo {
         }, {
           teamName: Teams.BFC,
           playerName: 'Đức Vũ',  //#9
-          playerNumber: 0,
+          playerNumber: 10,
           goals: 0,
           assists: 0,
           yellowCards: 0,
@@ -970,7 +970,7 @@ export class DataInfo {
         }, {
           teamName: Teams.BFC,
           playerName: 'Đức Anh Nguyễn',  //#10
-          playerNumber: 0,
+          playerNumber: 34,
           goals: 0,
           assists: 0,
           yellowCards: 0,
@@ -978,7 +978,7 @@ export class DataInfo {
         }, {
           teamName: Teams.BFC,
           playerName: 'Kyan Nguyễn',  //#11
-          playerNumber: 0,
+          playerNumber: 82,
           goals: 0,
           assists: 0,
           yellowCards: 0,
@@ -986,7 +986,7 @@ export class DataInfo {
         }, {
           teamName: Teams.BFC,
           playerName: 'Cubon Nguyễn',  //#12
-          playerNumber: 0,
+          playerNumber: 18,
           goals: 0,
           assists: 0,
           yellowCards: 0,
@@ -994,7 +994,7 @@ export class DataInfo {
         }, {
           teamName: Teams.BFC,
           playerName: 'Hồ Minh Trúc',  //#13
-          playerNumber: 0,
+          playerNumber: 77,
           goals: 0,
           assists: 0,
           yellowCards: 0,
@@ -1002,7 +1002,7 @@ export class DataInfo {
         }, {
           teamName: Teams.BFC,
           playerName: 'Việt Trần',  //#14
-          playerNumber: 0,
+          playerNumber: 4,
           goals: 0,
           assists: 0,
           yellowCards: 0,
@@ -1010,7 +1010,7 @@ export class DataInfo {
         }, {
           teamName: Teams.BFC,
           playerName: 'Nguyễn Công Khang',  //#15
-          playerNumber: 0,
+          playerNumber: 20,
           goals: 0,
           assists: 0,
           yellowCards: 0,
@@ -1018,7 +1018,7 @@ export class DataInfo {
         }, {
           teamName: Teams.BFC,
           playerName: 'Nathan Gawargy',  //#16
-          playerNumber: 0,
+          playerNumber: 9,
           goals: 0,
           assists: 0,
           yellowCards: 0,
@@ -1026,7 +1026,7 @@ export class DataInfo {
         }, {
           teamName: Teams.BFC,
           playerName: 'Hoàng Trương',  //#17
-          playerNumber: 0,
+          playerNumber: 28,
           goals: 0,
           assists: 0,
           yellowCards: 0,
@@ -1034,7 +1034,7 @@ export class DataInfo {
         }, {
           teamName: Teams.BFC,
           playerName: 'Nguyễn Xuân Đính',  //#18
-          playerNumber: 0,
+          playerNumber: 2,
           goals: 0,
           assists: 0,
           yellowCards: 0,
@@ -1042,7 +1042,39 @@ export class DataInfo {
         }, {
           teamName: Teams.BFC,
           playerName: 'Hoàng Võ',  //#19
-          playerNumber: 0,
+          playerNumber: 7,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0, yearOfBirth: 1996
+        }, {
+          teamName: Teams.BFC,
+          playerName: 'Quang Định',  //#20
+          playerNumber: 6,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0, yearOfBirth: 1983
+        }, {
+          teamName: Teams.BFC,
+          playerName: 'Nhật Hoàng',  //#21
+          playerNumber: 5,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0, yearOfBirth: 2006
+        }, {
+          teamName: Teams.BFC,
+          playerName: 'Gia Bao',  //#22
+          playerNumber: 22,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0, yearOfBirth: 1996
+        }, {
+          teamName: Teams.BFC,
+          playerName: 'Dung Dao',  //#23
+          playerNumber: 3,
           goals: 0,
           assists: 0,
           yellowCards: 0,
