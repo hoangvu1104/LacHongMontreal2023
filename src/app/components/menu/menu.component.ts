@@ -38,4 +38,14 @@ export class MenuComponent implements OnInit {
     this.menuCtrl.close();
   }
 
+  loadTeamsList() {
+    this.navCtrl.navigateRoot(RoutesUrl.TeamsList);
+    this.menuCtrl.close();
+  }
+
+  loadRulesInfo() {
+    this.navCtrl.navigateRoot(RoutesUrl.RulesInfo);
+    this.menuCtrl.close();
+  }
+
 }

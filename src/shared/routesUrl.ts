@@ -7,4 +7,8 @@ export class RoutesUrl {
   static Tables: string = 'tables';
   static TablesResult: string = 'table-result';
   static PlayersResult: string = 'player-result';
+  static TeamsList: string = 'teams-list';
+  static RulesInfo: string = 'rules-info';
+
+
 }
