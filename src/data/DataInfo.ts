@@ -485,6 +485,14 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0, yearOfBirth: 2000
+        }, {
+          teamName: Teams.CICC,
+          playerName: 'Minh Nguyễn', //#20
+          playerNumber: 10,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0, yearOfBirth: 2000
         }
       ].sort((a, b) => {
         return a.playerNumber - b.playerNumber;
