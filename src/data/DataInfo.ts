@@ -89,16 +89,8 @@ export class DataInfo {
           redCards: 0, yearOfBirth: 1999
         }, {
           teamName: Teams.VietUnitedFC,
-          playerName: 'Huy Phuc Loc Cao', //#7
-          playerNumber: 23,
-          goals: 0,
-          assists: 0,
-          yellowCards: 0,
-          redCards: 0, yearOfBirth: 2003
-        }, {
-          teamName: Teams.VietUnitedFC,
           playerName: 'Huy Phuoc Cao', //#8
-          playerNumber: 23,
+          playerNumber: 25,
           goals: 0,
           assists: 0,
           yellowCards: 0,
@@ -471,8 +463,8 @@ export class DataInfo {
           redCards: 0, yearOfBirth: 1997
         }, {
           teamName: Teams.CICC,
-          playerName: 'Văn Hoá', //#17
-          playerNumber: 68,
+          playerName: 'Huy Thục', //#17
+          playerNumber: 8,
           goals: 0,
           assists: 0,
           yellowCards: 0,
@@ -497,6 +489,14 @@ export class DataInfo {
           teamName: Teams.CICC,
           playerName: 'Minh Nguyễn', //#20
           playerNumber: 10,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0, yearOfBirth: 2000
+        }, {
+          teamName: Teams.CICC,
+          playerName: 'Nguyễn Ngọc Tuấn', //#21
+          playerNumber: 30,
           goals: 0,
           assists: 0,
           yellowCards: 0,
