@@ -167,6 +167,14 @@ export class DataInfo {
           assists: 0,
           yellowCards: 0,
           redCards: 0, yearOfBirth: 1982
+        }, {
+          teamName: Teams.VietUnitedFC,
+          playerName: 'Hồ Bá Phúc', //#17
+          playerNumber: 22,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0, yearOfBirth: 2003
         }
       ].sort((a, b) => {
         return a.playerNumber - b.playerNumber;
@@ -775,7 +783,7 @@ export class DataInfo {
         }, {
           teamName: Teams.KWFC,
           playerName: 'Thắng Đào', // #3
-          playerNumber: 3,
+          playerNumber: 17,
           goals: 0,
           assists: 0,
           yellowCards: 0,
@@ -871,7 +879,7 @@ export class DataInfo {
         }, {
           teamName: Teams.KWFC,
           playerName: 'Nguyễn Viết Thành', // #15
-          playerNumber: 1,
+          playerNumber: 18,
           goals: 0,
           assists: 0,
           yellowCards: 0,
