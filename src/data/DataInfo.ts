@@ -97,6 +97,14 @@ export class DataInfo {
           redCards: 0, yearOfBirth: 1991
         }, {
           teamName: Teams.VietUnitedFC,
+          playerName: 'Huy Phuoc Loc Cao', //#8
+          playerNumber: 23,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0, yearOfBirth: 1991
+        }, {
+          teamName: Teams.VietUnitedFC,
           playerName: 'Linh Hoang', //#9
           playerNumber: 11,
           goals: 0,
@@ -2433,7 +2441,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0, yearOfBirth: 2000
+          redCards: 0, yearOfBirth: 1994
         }, {
           teamName: Teams.RBJunior,
           playerName: 'Vo Hoang Khuong', //#2
@@ -2444,20 +2452,20 @@ export class DataInfo {
           redCards: 0, yearOfBirth: 2000
         }, {
           teamName: Teams.RBJunior,
-          playerName: 'Ngo ba tuyen', //#3
+          playerName: 'Ngo Ba Tuyen', //#3
           playerNumber: 10,
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0, yearOfBirth: 2000
+          redCards: 0, yearOfBirth: 2001
         }, {
           teamName: Teams.RBJunior,
-          playerName: 'Ngo tien dat', //#4
+          playerName: 'Ngo Tien Dat', //#4
           playerNumber: 29,
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0, yearOfBirth: 2000
+          redCards: 0, yearOfBirth: 2002
         }, {
           teamName: Teams.RBJunior,
           playerName: 'Nguyen Truong Nguyen', //#5
@@ -2465,19 +2473,11 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0, yearOfBirth: 2000
+          redCards: 0, yearOfBirth: 1989
         }, {
           teamName: Teams.RBJunior,
-          playerName: 'Nguyen hoang quoc anh', //#6
+          playerName: 'Nguyen Hoang Quoc Anh', //#6
           playerNumber: 25,
-          goals: 0,
-          assists: 0,
-          yellowCards: 0,
-          redCards: 0, yearOfBirth: 2000
-        }, {
-          teamName: Teams.RBJunior,
-          playerName: 'Vo Duong Huy', //#7
-          playerNumber: 30,
           goals: 0,
           assists: 0,
           yellowCards: 0,
@@ -2489,7 +2489,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0, yearOfBirth: 2000
+          redCards: 0, yearOfBirth: 1991
         }, {
           teamName: Teams.RBJunior,
           playerName: 'Pham Hoang Anh', //#9
@@ -2497,7 +2497,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0, yearOfBirth: 2000
+          redCards: 0, yearOfBirth: 1994
         }, {
           teamName: Teams.RBJunior,
           playerName: 'Minh Hoang', //#10
@@ -2505,31 +2505,31 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0, yearOfBirth: 2000
+          redCards: 0, yearOfBirth: 1980
         }, {
           teamName: Teams.RBJunior,
-          playerName: 'Dung nho', //#11
+          playerName: 'Dung Nho', //#11
           playerNumber: 3,
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0, yearOfBirth: 2000
+          redCards: 0, yearOfBirth: 1980
         }, {
           teamName: Teams.RBJunior,
-          playerName: 'Nguyen ngoc anh huy', //#12
+          playerName: 'Nguyen Ngoc Anh Huy', //#12
           playerNumber: 6,
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0, yearOfBirth: 2000
+          redCards: 0, yearOfBirth: 1999
         }, {
           teamName: Teams.RBJunior,
-          playerName: 'Bui phan tung', //#13
+          playerName: 'Bui Phan Tung', //#13
           playerNumber: 11,
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0, yearOfBirth: 2000
+          redCards: 0, yearOfBirth: 2001
         }, {
           teamName: Teams.RBJunior,
           playerName: 'Huy Hoang', //#14
@@ -2542,6 +2542,46 @@ export class DataInfo {
           teamName: Teams.RBJunior,
           playerName: 'Steven Hoang', //#15
           playerNumber: 24,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0, yearOfBirth: 2000
+        }, {
+          teamName: Teams.RBJunior,
+          playerName: 'Danny Ly', //#16
+          playerNumber: 21,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0, yearOfBirth: 2002
+        }, {
+          teamName: Teams.RBJunior,
+          playerName: 'Hoang Huynh', //#17
+          playerNumber: 5,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0, yearOfBirth: 2000
+        }, {
+          teamName: Teams.RBJunior,
+          playerName: 'Ken Tran', //#18
+          playerNumber: 9,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0, yearOfBirth: 2002
+        }, {
+          teamName: Teams.RBJunior,
+          playerName: 'Quang Dinh', //#19
+          playerNumber: 7,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0, yearOfBirth: 1999
+        }, {
+          teamName: Teams.RBJunior,
+          playerName: 'Thuy Le', //#20
+          playerNumber: 1,
           goals: 0,
           assists: 0,
           yellowCards: 0,
