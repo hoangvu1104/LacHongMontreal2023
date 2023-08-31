@@ -2305,12 +2305,12 @@ export class DataInfo {
       teamMembers: [
         {
           teamName: Teams.SFC,
-          playerName: 'Phạm Hồng Phước (C)', //#1
+          playerName: 'Phạm Hồng Phước', //#1
           playerNumber: 88,
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0, yearOfBirth: 2000
+          redCards: 0, yearOfBirth: 1985
         }, {
           teamName: Teams.SFC,
           playerName: 'Nguyễn Thanh Phước', //#2
@@ -2318,7 +2318,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0, yearOfBirth: 2000
+          redCards: 0, yearOfBirth: 1983
         }, {
           teamName: Teams.SFC,
           playerName: 'Đức Nguyễn', //#3
@@ -2326,7 +2326,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0, yearOfBirth: 2000
+          redCards: 0, yearOfBirth: 1983
         }, {
           teamName: Teams.SFC,
           playerName: 'Diên Hồ', //#4
@@ -2334,7 +2334,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0, yearOfBirth: 2000
+          redCards: 0, yearOfBirth: 1985
         }, {
           teamName: Teams.SFC,
           playerName: 'Nguyễn Mạnh Tùng', //#5
@@ -2342,7 +2342,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0, yearOfBirth: 2000
+          redCards: 0, yearOfBirth: 1988
         }, {
           teamName: Teams.SFC,
           playerName: 'Nguyễn Thanh Hùng', //#6
@@ -2350,7 +2350,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0, yearOfBirth: 2000
+          redCards: 0, yearOfBirth: 1989
         }, {
           teamName: Teams.SFC,
           playerName: 'Nguyễn Bảo Châu', //#7
@@ -2358,7 +2358,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0, yearOfBirth: 2000
+          redCards: 0, yearOfBirth: 1990
         }, {
           teamName: Teams.SFC,
           playerName: 'Tường Nam', //#8
@@ -2366,7 +2366,7 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0, yearOfBirth: 2000
+          redCards: 0, yearOfBirth: 1999
         }, {
           teamName: Teams.SFC,
           playerName: 'Tường Minh', //#9
@@ -2374,11 +2374,11 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0, yearOfBirth: 2000
+          redCards: 0, yearOfBirth: 1998
         }, {
           teamName: Teams.SFC,
           playerName: 'Nguyễn Tiến Thành', //#10
-          playerNumber: 29,
+          playerNumber: 27,
           goals: 0,
           assists: 0,
           yellowCards: 0,
@@ -2390,15 +2390,15 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0, yearOfBirth: 2000
+          redCards: 0, yearOfBirth: 2001
         }, {
           teamName: Teams.SFC,
-          playerName: 'Đinh Hoàng Lân', //#12
+          playerName: 'Đinh Hoàng Lân (C)', //#12
           playerNumber: 14,
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0, yearOfBirth: 2000
+          redCards: 0, yearOfBirth: 1994
         }, {
           teamName: Teams.SFC,
           playerName: 'Phạm Anh Tuấn', //#13
@@ -2406,23 +2406,39 @@ export class DataInfo {
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0, yearOfBirth: 2000
+          redCards: 0, yearOfBirth: 1985
         }, {
           teamName: Teams.SFC,
-          playerName: 'Trí Nguyễn', //#14
-          playerNumber: 24,
-          goals: 0,
-          assists: 0,
-          yellowCards: 0,
-          redCards: 0, yearOfBirth: 2000
-        }, {
-          teamName: Teams.SFC,
-          playerName: 'Đặng Văn Bình', //#15
+          playerName: 'Zinto Vỹ', //#14
           playerNumber: 89,
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0, yearOfBirth: 2000
+          redCards: 0, yearOfBirth: 1988
+        }, {
+          teamName: Teams.SFC,
+          playerName: 'Trần Văn Thảo', //#15
+          playerNumber: 12,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0, yearOfBirth: 1980
+        }, {
+          teamName: Teams.SFC,
+          playerName: 'Phạm Trường', //#16
+          playerNumber: 24,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0, yearOfBirth: 1983
+        }, {
+          teamName: Teams.SFC,
+          playerName: 'Lê Hữu Đức', //#17
+          playerNumber: 85,
+          goals: 0,
+          assists: 0,
+          yellowCards: 0,
+          redCards: 0, yearOfBirth: 1999
         }
       ].sort((a, b) => {
         return a.playerNumber - b.playerNumber;
