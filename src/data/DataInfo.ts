@@ -1,6 +1,6 @@
 import { Team } from "src/models/Team";
 import { StaticVariable } from "src/shared/staticVariable";
-import { Teams } from "src/shared/teams";
+import { Teams } from "src/shared/teams";//test
 
 export class DataInfo {
   static QuebecProvince: string = 'QC';
