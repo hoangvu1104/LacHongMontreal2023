@@ -550,7 +550,7 @@ export class DataInfo {
         {
           teamName: Teams.CTC,
           playerName: 'Tạ Thành Huân', //#4
-          playerNumber: 15,
+          playerNumber: 4,
           goals: 0,
           assists: 0,
           yellowCards: 0,
@@ -568,11 +568,11 @@ export class DataInfo {
         {
           teamName: Teams.CTC,
           playerName: 'Đỗ Tuấn Anh', //#6
-          playerNumber: 42,
+          playerNumber: 27,
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0, yearOfBirth: 2004
+          redCards: 0, yearOfBirth: 2003
         },
         {
           teamName: Teams.CTC,
@@ -585,17 +585,17 @@ export class DataInfo {
         },
         {
           teamName: Teams.CTC,
-          playerName: 'Trung Đức', //#8
-          playerNumber: 77,
+          playerName: 'Tran Dinh Bac', //#8
+          playerNumber: 14,
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0, yearOfBirth: 2000
+          redCards: 0, yearOfBirth: 2002
         },
         {
           teamName: Teams.CTC,
           playerName: 'Đào Viết Thịnh', //#9
-          playerNumber: 11,
+          playerNumber: 8,
           goals: 0,
           assists: 0,
           yellowCards: 0,
@@ -604,7 +604,7 @@ export class DataInfo {
         {
           teamName: Teams.CTC,
           playerName: 'Nguyễn Thành Nam', //#10
-          playerNumber: 14,
+          playerNumber: 10,
           goals: 0,
           assists: 0,
           yellowCards: 0,
@@ -621,8 +621,8 @@ export class DataInfo {
         },
         {
           teamName: Teams.CTC,
-          playerName: 'Lê Đức Hùng', //#12
-          playerNumber: 13,
+          playerName: 'Nguyen Nhat Vy', //#12
+          playerNumber: 23,
           goals: 0,
           assists: 0,
           yellowCards: 0,
@@ -631,7 +631,7 @@ export class DataInfo {
         {
           teamName: Teams.CTC,
           playerName: 'Nguyễn Quốc Việt', //#13
-          playerNumber: 2,
+          playerNumber: 21,
           goals: 0,
           assists: 0,
           yellowCards: 0,
@@ -648,12 +648,12 @@ export class DataInfo {
         },
         {
           teamName: Teams.CTC,
-          playerName: 'Phan Anh', //#15
-          playerNumber: 20,
+          playerName: 'Nguyen Van Duc', //#15
+          playerNumber: 9,
           goals: 0,
           assists: 0,
           yellowCards: 0,
-          redCards: 0, yearOfBirth: 1990
+          redCards: 0, yearOfBirth: 1998
         }
       ].sort((a, b) => {
         return a.playerNumber - b.playerNumber;
