@@ -53,7 +53,7 @@ export class PlayerResultPage implements OnInit {
       ...DataInfo.BFCPlayers.teamMembers, ...DataInfo.YGOfVNPlayers.teamMembers, ...DataInfo.FCAEPlayers.teamMembers,
       ...DataInfo.LankFCPlayers.teamMembers);
     // this.playerResults.push(...DataInfo.CalgaryVFCPlayers.teamMembers);
-      console.log(this.playerResults);
+    //console.log(this.playerResults);
     this.playerResults = this.playerResults
       .filter((p) => {
         if (this.showGoalsStatic) {

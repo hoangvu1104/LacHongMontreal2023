@@ -31,11 +31,11 @@ export class TableResultPage implements OnInit {
     this.teamResultGroupA = [
       {
         teamName: Teams.VietUnitedFC,
-        point: 3,
-        won: 1,//1-0-0
+        point: 6,
+        won: 2,//1-1-0
         lost: 0,
         draw: 0,
-        goalsFor: 7,//7+0+0
+        goalsFor: 16,//7+9+0
         goalsAgainst: 1,//1+0+0
         yellowCards: 0,//0+0+0
         redCards: 0//0+0+0
@@ -44,33 +44,33 @@ export class TableResultPage implements OnInit {
         teamName: Teams.KWFC,
         point: 0,
         won: 0,
-        lost: 1,
+        lost: 2,
         draw: 0,
-        goalsFor: 1,//1+0+0
-        goalsAgainst: 7,//7+0+0
-        yellowCards: 2,//2+0+0
+        goalsFor: 2,//1+1+0
+        goalsAgainst: 15,//7+8+0
+        yellowCards: 3,//2+1+0
         redCards: 0//0+0+0
       },
       {
         teamName: Teams.Stechco2,
         point: 0,
         won: 0,
-        lost: 1,
+        lost: 2,
         draw: 0,
         goalsFor: 2,//2+0+0
-        goalsAgainst: 6,//6+0+0
+        goalsAgainst: 15,//6+9+0
         yellowCards: 1,//1+0+0
         redCards: 0//0+0+0
       },
       {
         teamName: Teams.BFC,
-        point: 3,
-        won: 1,
+        point: 6,
+        won: 2,
         lost: 0,
         draw: 0,
-        goalsFor: 6,//6+0+0
-        goalsAgainst: 2,//2+0+0
-        yellowCards: 0,//0+0+0
+        goalsFor: 14,//6+8+0
+        goalsAgainst: 3,//2+1+0
+        yellowCards: 1,//0+1+0
         redCards: 0//0+0+0
       }
     ].sort((a, b) => {
@@ -84,44 +84,44 @@ export class TableResultPage implements OnInit {
         teamName: Teams.CalgaryVFC,
         point: 3,
         won: 1,
-        lost: 0,
+        lost: 1,
         draw: 0,
-        goalsFor: 5,//5+0+0
-        goalsAgainst: 1,//1+0+0
-        yellowCards: 1,//0+0+0
+        goalsFor: 6,//5+1+0
+        goalsAgainst: 6,//1+5+0
+        yellowCards: 1,//1+0+0
         redCards: 0//0+0+0
       },
       {
         teamName: Teams.SFC,
         point: 0,
         won: 0,
-        lost: 1,
+        lost: 2,
         draw: 0,
-        goalsFor: 1,//1+0+0
-        goalsAgainst: 5,//5+0+0
-        yellowCards: 0,//0+0+0
+        goalsFor: 3,//1+2+0
+        goalsAgainst: 9,//5+4+0
+        yellowCards: 2,//0+2+0
         redCards: 0//0+0+0
       },
       {
         teamName: Teams.FCAE,
-        point: 3,
-        won: 1,
+        point: 6,
+        won: 2,
         lost: 0,
         draw: 0,
-        goalsFor: 3,//3+0+0
-        goalsAgainst: 0,//0+0+0
-        yellowCards: 5,//5+0+0
+        goalsFor: 7,//3+4+0
+        goalsAgainst: 2,//0+2+0
+        yellowCards: 7,//5+2+0
         redCards: 0//0+0+0
       },
       {
         teamName: Teams.YGOfVN,
-        point: 0,
-        won: 0,
+        point: 3,
+        won: 1,
         lost: 1,
         draw: 0,
-        goalsFor: 0,//0+0+0
-        goalsAgainst: 3,//3+0+0
-        yellowCards: 0,//0+0+0
+        goalsFor: 4,//0+4+0
+        goalsAgainst: 5,//3+2+0
+        yellowCards: 2,//0+2+0
         redCards: 0//0+0+0
       }
     ].sort((a, b) => {

@@ -72,7 +72,7 @@ export class ResultPage implements OnInit {
         code: 'GS06',
         time: this.time2, field: Fields.Field2,
         teamA: this.generateTeamName(groupC[2]), teamB: this.generateTeamName(groupC[3]),
-        resultA: 0, resultB: 0, ref: 'Fakhri'
+        resultA: 4, resultB: 1, ref: 'Fakhri'
       },
       {
         code: 'GS07',
@@ -91,25 +91,25 @@ export class ResultPage implements OnInit {
         code: 'GS09',
         time: this.time3, field: Fields.Field1,
         teamA: this.generateTeamName(groupA[0]), teamB: this.generateTeamName(groupA[2]),
-        resultA: 0, resultB: 0, ref: 'Walid'
+        resultA: 9, resultB: 0, ref: 'Walid'
       },
       {
         code: 'GS10',
         time: this.time3, field: Fields.Field2,
         teamA: this.generateTeamName(groupA[1]), teamB: this.generateTeamName(groupA[3]),
-        resultA: 0, resultB: 0, ref: 'Fakhri'
+        resultA: 1, resultB: 8, ref: 'Fakhri'
       },
       {
         code: 'GS11',
         time: this.time3, field: Fields.Field3,
         teamA: this.generateTeamName(groupB[0]), teamB: this.generateTeamName(groupB[2]),
-        resultA: 0, resultB: 0, ref: 'Adam'
+        resultA: 1, resultB: 5, ref: 'Adam'
       },
       {
         code: 'GS12',
         time: this.time3, field: Fields.Field4,
         teamA: this.generateTeamName(groupB[1]), teamB: this.generateTeamName(groupB[3]),
-        resultA: 0, resultB: 0, ref: 'Rami'
+        resultA: 2, resultB: 4, ref: 'Rami'
       },
       //Round 2 - CD
       {
