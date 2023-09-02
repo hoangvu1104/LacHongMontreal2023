@@ -6,10 +6,10 @@
       <th>Code</th>
       <th></th>
       <th>Home</th>
-      <!-- <th></th>
       <th></th>
-      <th></th> -->
       <th></th>
+      <th></th>
+      <!-- <th></th> -->
       <th>Away</th>
       <th></th>
       <th>Ref</th>
@@ -27,10 +27,10 @@
           </div>
         </td>
         <td class="team-name">{{ division.teamA }}</td>
-        <!-- <td>{{ division.resultA }}</td>
+        <td>{{ division.resultA }}</td>
         <td> - </td>
-        <td>{{ division.resultB }}</td> -->
-        <td> vs </td>
+        <td>{{ division.resultB }}</td>
+        <!-- <td> vs </td> -->
         <td class="team-name">{{ division.teamB }}</td>
         <td>
           <div class="team-info">
@@ -40,13 +40,13 @@
         <td>{{ division.ref }}</td>
       </tr>
       <tr *ngIf="((i + 1) % 4 === 0) && (i+1) !== divisions.length && i !== 11" class="spacer-row">
-        <td colspan="9">Giải lao 15 phút</td>
+        <td colspan="11">Giải lao 15 phút</td>
       </tr>
       <tr *ngIf="(i + 1) === divisions.length" class="spacer-row">
-        <td colspan="9">BỐC THĂM VÒNG TỨ KẾT</td>
+        <td colspan="11">BỐC THĂM VÒNG TỨ KẾT</td>
       </tr>
       <tr *ngIf="i === 11" class="spacer-row">
-        <td colspan="9">Nghỉ trưa 1 tiếng</td>
+        <td colspan="11">Nghỉ trưa 1 tiếng</td>
       </tr>
     </ng-container>
   </tbody>

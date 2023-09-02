@@ -29,8 +29,7 @@
             </tr>
           </thead>
           <tbody>
-            <tr *ngFor="let player of playerResults"
-            [ngStyle]="{'background-color': (player.yellowCards >=3) ? 'orange' : (player.redCards > 0 ? 'orange' : null) }">
+            <tr *ngFor="let player of playerResults">
               <td>{{player.teamName}}</td>
               <td>{{player.playerName}}</td>
               <td>{{player.playerNumber}}</td>

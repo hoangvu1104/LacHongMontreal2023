@@ -21,6 +21,7 @@ export class PlayerResultPage implements OnInit {
   }
 
   changValue(event: any) {
+    console.log(event.detail.value);
     this.showGoalsStatic = event.detail.value === 'goals';
     this.showAssistsStatic = event.detail.value === 'assists';
     this.showYellowCardsStatic = event.detail.value === 'yellowCards';
@@ -34,6 +35,7 @@ export class PlayerResultPage implements OnInit {
   }
 
   showPlayersResult() {
+    
     if (this.showGoalsStatic) {
       this.displayTitle = 'Danh sách cầu thủ ghi bàn';
     } else if (this.showAssistsStatic) {
@@ -50,6 +52,8 @@ export class PlayerResultPage implements OnInit {
       ...DataInfo.CTCPlayers.teamMembers, ...DataInfo.FCKingstonPlayers.teamMembers, ...DataInfo.KWFCPlayers.teamMembers,
       ...DataInfo.BFCPlayers.teamMembers, ...DataInfo.YGOfVNPlayers.teamMembers, ...DataInfo.FCAEPlayers.teamMembers,
       ...DataInfo.LankFCPlayers.teamMembers);
+    // this.playerResults.push(...DataInfo.CalgaryVFCPlayers.teamMembers);
+      console.log(this.playerResults);
     this.playerResults = this.playerResults
       .filter((p) => {
         if (this.showGoalsStatic) {
@@ -65,9 +69,11 @@ export class PlayerResultPage implements OnInit {
       .sort((a, b) => {
         if (this.showGoalsStatic) {
           return b.goals - a.goals;
-        } else {
+        } else if (this.showGoalsStatic){
           return b.assists - a.assists;
-        }
+        } else if (this.showYellowCardsStatic){
+          return b.yellowCards - a.yellowCards;
+        } else return b.redCards - b.redCards;
       });
   }
 }

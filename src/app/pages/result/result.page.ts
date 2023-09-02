@@ -41,32 +41,32 @@ export class ResultPage implements OnInit {
         code: 'GS01',
         time: this.time1, field: Fields.Field1,
         teamA: this.generateTeamName(groupA[0]), teamB: this.generateTeamName(groupA[1]),
-        resultA: 0, resultB: 0, ref: 'Walid'
+        resultA: 7, resultB: 1, ref: 'Walid'
       },
       {
         code: 'GS02',
         time: this.time1, field: Fields.Field2,
         teamA: this.generateTeamName(groupA[2]), teamB: this.generateTeamName(groupA[3]),
-        resultA: 0, resultB: 0, ref: 'Fakhri'
+        resultA: 2, resultB: 6, ref: 'Fakhri'
       },
       {
         code: 'GS03',
         time: this.time1, field: Fields.Field3,
         teamA: this.generateTeamName(groupB[0]), teamB: this.generateTeamName(groupB[1]),
-        resultA: 0, resultB: 0, ref: 'Adam'
+        resultA: 5, resultB: 1, ref: 'Adam'
       },
       {
         code: 'GS04',
         time: this.time1, field: Fields.Field4,
         teamA: this.generateTeamName(groupB[2]), teamB: this.generateTeamName(groupB[3]),
-        resultA: 0, resultB: 0, ref: 'Rami'
+        resultA: 3, resultB: 0, ref: 'Rami'
       },
       //Round 1 - CD
       {
         code: 'GS05',
         time: this.time2, field: Fields.Field1,
         teamA: this.generateTeamName(groupC[0]), teamB: this.generateTeamName(groupC[1]),
-        resultA: 0, resultB: 0, ref: 'Walid'
+        resultA: 5, resultB: 2, ref: 'Walid'
       },
       {
         code: 'GS06',
@@ -78,13 +78,13 @@ export class ResultPage implements OnInit {
         code: 'GS07',
         time: this.time2, field: Fields.Field3,
         teamA: this.generateTeamName(groupD[0]), teamB: this.generateTeamName(groupD[1]),
-        resultA: 0, resultB: 0, ref: 'Adam'
+        resultA: 1, resultB: 2, ref: 'Adam'
       },
       {
         code: 'GS08',
         time: this.time2, field: Fields.Field4,
         teamA: this.generateTeamName(groupD[2]), teamB: this.generateTeamName(groupD[3]),
-        resultA: 0, resultB: 0, ref: 'Rami'
+        resultA: 3, resultB: 1, ref: 'Rami'
       },
       //Round 2 - AB
       {
