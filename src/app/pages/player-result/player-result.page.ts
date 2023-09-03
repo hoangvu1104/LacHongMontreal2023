@@ -62,18 +62,22 @@ export class PlayerResultPage implements OnInit {
           return p.assists > 0;
         } else if (this.showYellowCardsStatic) {
           return p.yellowCards > 0;
-        } else {
+        } else if (this.showRedCardsStatic){
           return p.redCards > 0;
         }
+        return p.goals > 0;
       })
       .sort((a, b) => {
         if (this.showGoalsStatic) {
           return b.goals - a.goals;
-        } else if (this.showGoalsStatic){
+        } else if (this.showAssistsStatic){
           return b.assists - a.assists;
         } else if (this.showYellowCardsStatic){
           return b.yellowCards - a.yellowCards;
-        } else return b.redCards - b.redCards;
+        } else if (this.showRedCardsStatic){
+          return b.redCards - a.redCards;
+        };
+        return b.goals - a.goals;
       });
   }
 }

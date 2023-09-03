@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Division } from 'src/models/Division';
 import { CommonFunctions } from 'src/shared/commonFunctions';
 import { Fields } from 'src/shared/fields';
+import { Teams } from 'src/shared/teams';
 
 @Component({
   selector: 'app-playoffnormal',
@@ -31,50 +32,50 @@ export class PlayoffnormalPage implements OnInit {
       {
         code: "QF11",
         time: this.time1, field: Fields.Field1,
-        teamA: 'Nhất Bảng (#1)', teamB: 'Nhì Bảng (#1)',
+        teamA: Teams.CICC, teamB: Teams.Stechco1,
         resultA: 0, resultB: 0, ref: ''
       },
       {
         code: "QF12",
         time: this.time1, field: Fields.Field2,
-        teamA: 'Nhất Bảng (#2)', teamB: 'Nhì Bảng (#2)',
+        teamA: Teams.VietUnitedFC, teamB: Teams.LankFC,
         resultA: 0, resultB: 0, ref: ''
       },
       {
         code: "QF13",
         time: this.time1, field: Fields.Field3,
-        teamA: 'Nhất Bảng (#3)', teamB: 'Nhì Bảng (#3)',
+        teamA: Teams.FCAE, teamB: Teams.BFC,
         resultA: 0, resultB: 0, ref: ''
       },
       {
         code: "QF14",
         time: this.time1, field: Fields.Field4,
-        teamA: 'Nhất Bảng (#4)', teamB: 'Nhì Bảng (#4)',
+        teamA: Teams.FC3Mien, teamB: Teams.YGOfVN,
         resultA: 0, resultB: 0, ref: ''
       },
       //'9h45-10h45' - QF Division 2
       {
         code: "QF21",
         time: this.time2, field: Fields.Field1,
-        teamA: 'Ba Bảng (#1)', teamB: 'Tư Bảng (#1)',
+        teamA: Teams.CTC, teamB: Teams.SFC,
         resultA: 0, resultB: 0, ref: ''
       },
       {
         code: "QF22",
         time: this.time2, field: Fields.Field2,
-        teamA: 'Ba Bảng (#2)', teamB: 'Tư Bảng (#2)',
+        teamA: Teams.RBJunior, teamB: Teams.KWFC,
         resultA: 0, resultB: 0, ref: ''
       },
       {
         code: "QF23",
         time: this.time2, field: Fields.Field3,
-        teamA: 'Ba Bảng (#3)', teamB: 'Tư Bảng (#3)',
+        teamA: Teams.Stechco2, teamB: Teams.CalgaryVFC,
         resultA: 0, resultB: 0, ref: ''
       },
       {
         code: "QF24",
         time: this.time2, field: Fields.Field4,
-        teamA: 'Ba Bảng (#4)', teamB: 'Tư Bảng (#4)',
+        teamA: Teams.FCKingston, teamB: Teams.VMU,
         resultA: 0, resultB: 0, ref: ''
       },
       //'11h-12h' - SF Division 1-2
