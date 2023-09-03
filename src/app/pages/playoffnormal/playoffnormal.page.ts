@@ -32,75 +32,75 @@ export class PlayoffnormalPage implements OnInit {
       {
         code: "QF11",
         time: this.time1, field: Fields.Field1,
-        teamA: Teams.CICC, teamB: Teams.Stechco1,
-        resultA: 0, resultB: 0, ref: ''
+        teamA: Teams.CICC_Star, teamB: Teams.Stechco1,
+        resultA: 1, resultB: 1, ref: ''
       },
       {
         code: "QF12",
         time: this.time1, field: Fields.Field2,
         teamA: Teams.VietUnitedFC, teamB: Teams.LankFC,
-        resultA: 0, resultB: 0, ref: ''
+        resultA: 4, resultB: 1, ref: 'Fakhri'
       },
       {
         code: "QF13",
         time: this.time1, field: Fields.Field3,
         teamA: Teams.FCAE, teamB: Teams.BFC,
-        resultA: 0, resultB: 0, ref: ''
+        resultA: 3, resultB: 5, ref: 'Adam'
       },
       {
         code: "QF14",
         time: this.time1, field: Fields.Field4,
         teamA: Teams.FC3Mien, teamB: Teams.YGOfVN,
-        resultA: 0, resultB: 0, ref: ''
+        resultA: 3, resultB: 1, ref: ''
       },
       //'9h45-10h45' - QF Division 2
       {
         code: "QF21",
         time: this.time2, field: Fields.Field1,
         teamA: Teams.CTC, teamB: Teams.SFC,
-        resultA: 0, resultB: 0, ref: ''
+        resultA: 1, resultB: 3, ref: 'Walid'
       },
       {
         code: "QF22",
         time: this.time2, field: Fields.Field2,
         teamA: Teams.RBJunior, teamB: Teams.KWFC,
-        resultA: 0, resultB: 0, ref: ''
+        resultA: 7, resultB: 3, ref: 'Fakhri'
       },
       {
         code: "QF23",
         time: this.time2, field: Fields.Field3,
-        teamA: Teams.Stechco2, teamB: Teams.CalgaryVFC,
-        resultA: 0, resultB: 0, ref: ''
+        teamA: Teams.Stechco2, teamB: Teams.FCKingston,
+        resultA: 2, resultB: 1, ref: 'Adam'
       },
       {
         code: "QF24",
         time: this.time2, field: Fields.Field4,
-        teamA: Teams.FCKingston, teamB: Teams.VMU,
-        resultA: 0, resultB: 0, ref: ''
+        teamA: Teams.CalgaryVFC, teamB: Teams.VMU,
+        resultA: 1, resultB: 4, ref: 'Rami'
       },
       //'11h-12h' - SF Division 1-2
       {
         code: "SF11",
         time: this.time3, field: Fields.Field1,
-        teamA: 'WIN QF11', teamB: 'WIN QF13',
+        teamA: Teams.CICC, teamB: Teams.BFC,
         resultA: 0, resultB: 0, ref: ''
       },
       {
         code: "SF12",
         time: this.time3, field: Fields.Field2,
-        teamA: 'WIN QF12', teamB: 'WIN QF14',
+        teamA: Teams.VietUnitedFC, teamB: Teams.FC3Mien,
         resultA: 0, resultB: 0, ref: ''
       },
       {
         code: "SF21",
         time: this.time3, field: Fields.Field3,
-        teamA: 'WIN QF21', teamB: 'WIN QF23',
+        teamA: Teams.SFC, teamB: Teams.Stechco2,
         resultA: 0, resultB: 0, ref: ''
       },
       {
         code: "SF22",
         time: this.time3, field: Fields.Field4,
-        teamA: 'WIN QF22', teamB: 'WIN QF24',
+        teamA: Teams.RBJunior, teamB: Teams.VMU,
         resultA: 0, resultB: 0, ref: ''
       }
     ];
